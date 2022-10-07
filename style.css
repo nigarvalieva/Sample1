@@ -13,13 +13,32 @@ body {
 }
 
 .panel1 {
-    width: 130px;
-    height: 32px;
-    margin-left: 151px;
-    margin-top: 100px;
-
+    width: 158px;
+    height: 44px;
+    margin-right: 26px;
 }
 
+.panel2 {
+    width: 134px;
+    height: 44px;
+    margin-left: 0;
+    margin-right: 19px;
+}
+
+.panel3 {
+    width: 156px;
+    height: 44px;
+}
+
+.panel {
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin: 88px 25px 0 116px;
+    width: 493px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+}
 
 @media (min-width: 1280px) {}
 
