@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 
@@ -20,29 +18,27 @@ body {
     height: 44px;
     margin-right: 26px;
 }
-    
+
 .forma {
-    
-width: 667px;
-height: 93px;
-margin-left: 121px;
-margin-top: 162px;
+    width: 667px;
+    height: 93px;
+    margin-left: 121px;
+    margin-top: 162px;
 
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 55px;
-line-height: 56px;
-color: #000000;
-
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 56px;
+    color: #000000;
 }
 
 .format {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap;
+}
 
 .panel2 {
     width: 134px;
@@ -83,102 +79,86 @@ h3 {
 }
 
 .dostup {
-    
-width: 214px;
-height: 39px;
-margin-left: 195px;
-margin-top: 89px;
-
-
-
+    width: 214px;
+    height: 39px;
+    margin-left: 195px;
+    margin-top: 89px;
 }
 
 .obseniye {
-width: 150px;
-height: 39px;
-margin-left: 851px;
-margin-top: 89px;
-margin-left: 170px;
-
-
-
+    width: 150px;
+    height: 39px;
+    margin-left: 851px;
+    margin-top: 89px;
+    margin-left: 170px;
 }
 
 .online {
-    
-width: 223px;
-height: 39px;
-margin-left: 122px;
-margin-top: 2222px;
+    width: 223px;
+    height: 39px;
+    margin-left: 122px;
+    margin-top: 2222px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-color: #000000;
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
 }
 
 .kabi {
-   
-width: 271px;
-height: 109px;
-margin-left: 467px;
-margin-top: 2222px;
+    width: 271px;
+    height: 109px;
+    margin-left: 467px;
+    margin-top: 2222px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-color: #000000;
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
 }
 
 .prepod {
-width: 245px;
-height: 39px;
-margin-left: 851px;
-margin-top: 2222px;
+    width: 245px;
+    height: 39px;
+    margin-left: 851px;
+    margin-top: 2222px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-color: #000000;
-
-
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
 }
 
-.vtoroy{
-width: 667px;
-height: 93px;
-margin-left: 121px;
-margin-top: 2510px;
+.vtoroy {
+    width: 667px;
+    height: 93px;
+    margin-left: 121px;
+    margin-top: 2510px;
 
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 55px;
-line-height: 56px;
-color: #000000;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 56px;
+    color: #000000;
 }
 
 .spiski {
-width: 662px;
-height: 374px;
-margin-left: 138px;
-margin-top: 2624px;
+    width: 662px;
+    height: 374px;
+    margin-left: 138px;
+    margin-top: 2624px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-color: #000000;
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
 }
-
