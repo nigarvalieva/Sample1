@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, Roboto Slab;
+}
+
+@media (min-width: 1280px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+
+}
