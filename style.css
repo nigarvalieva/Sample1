@@ -5,6 +5,30 @@ body {
     font-family: Roboto, Roboto Slab;
 }
 
+main {
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+h4 {
+    font-family: Roboto;
+    font-style: bold;
+    font-size: 30px;
+}
 
 .shekil {
     width: 112px;
@@ -22,8 +46,7 @@ body {
 .forma {
     width: 667px;
     height: 93px;
-    margin-left: 121px;
-    margin-top: 162px;
+    margin: 121px 0 100px 0;
 
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -33,11 +56,20 @@ body {
     color: #000000;
 }
 
+.info {
+    max-width: 1002px;
+}
+
 .format {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    max-width: 982px;
+}
+
+.format h3 {
+    color: #1E4681;
 }
 
 .panel2 {
@@ -62,42 +94,25 @@ body {
     flex-direction: row;
 }
 
-h3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 32px;
-    color: #1E4681;
-}
 
 .vebinar {
     width: 150px;
     height: 39px;
-    margin-left: 122px;
-    margin-top: 89px;
 }
 
 .dostup {
     width: 214px;
     height: 39px;
-    margin-left: 195px;
-    margin-top: 89px;
 }
 
 .obseniye {
     width: 150px;
     height: 39px;
-    margin-left: 851px;
-    margin-top: 89px;
-    margin-left: 170px;
 }
 
 .online {
     width: 223px;
     height: 39px;
-    margin-left: 122px;
-    margin-top: 2222px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -110,8 +125,6 @@ h3 {
 .kabi {
     width: 271px;
     height: 109px;
-    margin-left: 467px;
-    margin-top: 2222px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -124,8 +137,6 @@ h3 {
 .prepod {
     width: 245px;
     height: 39px;
-    margin-left: 851px;
-    margin-top: 2222px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -161,4 +172,38 @@ h3 {
     font-size: 24px;
     line-height: 36px;
     color: #000000;
+}
+
+
+.lessons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1271px;
+    margin: 120px 0;
+}
+
+
+.lessons div {
+    max-width: 399px;
+    max-height: 328px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 0 #000000;
+}
+
+.lessons h4 {
+    margin: 11px 0 32px 19px;
+    margin-top: 11px;
+    margin-bottom: 32px;
+    margin-left: 19px;
+}
+
+.lessons p {
+    font-size: 25px;
+    font-family: Roboto;
+    margin: 0 0 23px 19px;
+}
+
+h4.vosem {
+    margin: 8px 0 0 19px;
 }
