@@ -144,18 +144,10 @@ h4 {
         height: 44px;
     }
 
-.spiski {
-    width: 662px;
-    height: 374px;
-    margin-left: 138px;
-    margin-top: 21px;
-}
-
-
-
     /*Fatima*/
     .info {
-        max-width: 1002px;
+        max-width: 1308px;
+        margin: auto;
     }
 
     .format {
@@ -168,6 +160,12 @@ h4 {
     
     .format h3 {
         color: #1E4681;
+    }
+
+    .format div {
+        max-width: 2000px;
+        font-weight: 600;
+
     }
         
     .online {
@@ -220,7 +218,50 @@ h4 {
         color: #000000;
     }
 
+    .outro {
+        max-width: 1308px;
+        margin: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        height: 780px;
+        font-weight: 400;
+        line-height: 25px;
+        background-color: #9DC9C8;
+    }
 
+    .stoimost {
+        width: 170px;
+        height: 32px;
+        font-size: 25px;
+    }
+
+    .cena {
+        width: 481px;
+        height: 181px; 
+        font-size: 80px;
+    }
+
+    .priziv {
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+    }
+
+    .left {
+        box-sizing: border-box;
+        width: 298px;
+        height: 105px;
+    }
+
+    .right {
+        box-sizing: border-box;
+        width: 294px;
+        height: 102px;
+        margin-left: 70px;
+    }
+
+
+    
 
 
 
