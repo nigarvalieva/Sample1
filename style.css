@@ -148,7 +148,11 @@ h4 {
     .info {
         max-width: 1200px;
         margin: auto;
+        align-items: start;
+        margin-bottom: 236px;
     }
+    
+   
 
     .format {
         display: flex;
@@ -207,7 +211,7 @@ h4 {
     .spiski {
         width: 662px;
         height: 374px;
-        margin-left: 138px;
+       
         margin-top: 21px;
     
         font-family: 'Roboto';
@@ -216,6 +220,7 @@ h4 {
         font-size: 24px;
         line-height: 36px;
         color: #000000;
+       
     }
 
     .outro {
