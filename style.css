@@ -223,7 +223,7 @@ h4 {
        
     }
 
-    .outro {
+    /*.outro {
         max-width: 1308px;
         margin: auto;
         font-family: 'Roboto';
@@ -237,7 +237,7 @@ h4 {
         padding-right: 500px;
     }
 
-    /*.stoimost {
+    .stoimost {
         width: 170px;
         height: 32px;
         font-size: 25px;
@@ -342,6 +342,9 @@ h4 {
         margin: 8px 0 0 19px;
     }
 
+    
+
+
 
     /*Tehran*/
 
@@ -351,31 +354,51 @@ h4 {
      .icons {
         max-width: 1440px;
         height: 390px;
+
      }
 
      footer {
         width: 100%;
         background-color: #000000;
+
+     }
+     .black {
+        max-width: 1273px;
+
      }
 
      .sinxr {
         width: 115px;
         height: 68px;
-        margin-bottom: 272px;
-        margin-left: 121px;
+        margin-left: 122px;
         margin-top: 50px;
      }
+
      .social {
         display: flex;
+        margin-top: 30px;
      }
 
      .social img {
-        max-width: 33px;
+        width: 33px;
         height: 34px;
-        margin: 20px;
-        padding-left: 122px;
-
+        padding: 25px;
+        
      }
+
+    
+      .number {
+        width: 266px;
+        height: 35px;
+        margin-right: 201px;
+        margin-top: 30px;
+        margin-left: 972px;
+
+      }
+
+
+
+
 
 
 
