@@ -106,7 +106,7 @@ h4 {
 /****************DESKTOP****************/
 /****************DESKTOP****************/
 
-@media (min-width: 1280px){
+@media (min-width: 1280px) {
 
     /*Rasul*/
     .shekil {
@@ -125,7 +125,7 @@ h4 {
         display: flex;
         flex-direction: row;
     }
-    
+
     .panel1 {
         width: 158px;
         height: 44px;
@@ -138,7 +138,7 @@ h4 {
         margin-left: 0;
         margin-right: 19px;
     }
-    
+
     .panel3 {
         width: 156px;
         height: 44px;
@@ -157,7 +157,7 @@ h4 {
         flex-wrap: wrap;
         max-width: 982px;
     }
-    
+
     .format h3 {
         color: #1E4681;
     }
@@ -167,11 +167,11 @@ h4 {
         font-weight: 600;
 
     }
-        
+
     .online {
         width: 223px;
         height: 39px;
-    
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -179,11 +179,11 @@ h4 {
         line-height: 23px;
         color: #000000;
     }
-    
+
     .kabi {
         width: 271px;
         height: 109px;
-    
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -191,11 +191,11 @@ h4 {
         line-height: 23px;
         color: #000000;
     }
-    
+
     .prepod {
         width: 245px;
         height: 39px;
-    
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -209,7 +209,7 @@ h4 {
         height: 374px;
         margin-left: 138px;
         margin-top: 21px;
-    
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -237,14 +237,14 @@ h4 {
 
     .cena {
         width: 481px;
-        height: 181px; 
+        height: 181px;
         font-size: 80px;
     }
 
     .priziv {
         display: flex;
-	    flex-direction: row;
-	    flex-wrap: wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .left {
@@ -261,7 +261,7 @@ h4 {
     }
 
 
-    
+
 
 
 
@@ -272,21 +272,21 @@ h4 {
         max-width: 1308px;
         margin: auto;
     }
-    
-    
+
+
     .lessons {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         margin-top: 134px;
     }
-    
-    .programma   h2 {
+
+    .programma h2 {
         max-width: 505px;
         max-height: 64px;
         margin: 0 0 0 55px;
     }
-    
+
     .lessons div {
         display: flex;
         flex-wrap: wrap;
@@ -298,42 +298,151 @@ h4 {
         border-radius: 30px;
         box-shadow: 1px 1px 15px 0 #000000;
     }
-    
-    
+
+
     .lessons h4 {
         margin: 11px 0 36px 19px;
         margin-top: 11px;
         margin-bottom: 35px;
         margin-left: 19px;
     }
-    
+
     .lessons p {
         font-size: 25px;
         font-family: Roboto;
         margin: 0 0 30px 19px;
     }
-    
+
     h4.vosem {
         margin: 8px 0 0 19px;
     }
 
 
     /*Tehran*/
+    .article2 {
+        background-color: #EFEFEF;
+        height: 780px;
+        width: 100%;
+    }
 
+    .card {
+        width: 791px;
+        height: 451px;
+        margin-left: 125px;
+        background-color: white;
+        box-shadow: 1px 1px 20px;
+        border-radius: 30px;
+    }
 
+    .article2 h2 {
+        font-family: Roboto Slab;
+        font-weight: 700;
+        padding-left: 121px;
+        padding-top: 91px;
+    }
+
+    .card p {
+        font-family: Roboto;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-left: 45px;
+        width: 700px;
+        height: 203px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .img19 {
+        width: 190px;
+        height: 169px;
+        margin-left: 26px;
+    }
+
+    .img_fb {
+        width: 32px;
+        height: 31px;
+        margin-left: 30px;
+    }
+
+    .continue {
+        display: flex;
+    }
+
+    .article2 h4 {
+        margin-left: 30px;
+    }
+
+    .article3 {
+        font-family: Roboto Slab;
+        background-color: #9DC9C8;
+        height: 780px;
+        width: 100%;
+        padding-left: 122px;
+        padding-top: 177px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .article3 h2 {
+        margin-bottom: 0;
+    }
+
+    .stoimost {
+        width: 170px;
+        height: 32px;
+        padding-top: 54px;
+        padding-left: 6px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+
+    .cena {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 101.38%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .priziv {
+        margin-top: 0;
+    }
+    .priziv p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+    .priziv h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-top: 0;
+    }
 
     /*Fatima*/
 
 
 
 }
+
 /****************TABLET****************/
 /****************TABLET****************/
 /****************TaBLET****************/
 
 
 
-@media (min-width: 991px) and (max-width: 1280px){
+@media (min-width: 991px) and (max-width: 1280px) {
 
     /*RASUL*/
 
@@ -351,22 +460,22 @@ h4 {
         max-width: 770px;
         margin: auto;
     }
-    
-    
+
+
     .lessons {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         margin-top: 83px;
     }
-    
-    .programma   h2 {
+
+    .programma h2 {
         max-width: 300px;
         max-height: 40px;
         margin: 0 0 83px 30px;
         font-size: 32px;
     }
-    
+
     .lessons div {
         display: flex;
         flex-wrap: wrap;
@@ -378,27 +487,27 @@ h4 {
         border-radius: 17.38px;
         box-shadow: 0.58px 0.58px 10px 0 #000000;
     }
-    
-    
+
+
     .lessons h4 {
         font-size: 17px;
         margin: 11px 0 19px 11px;
     }
-    
+
     .lessons p {
         font-size: 14px;
         font-family: Roboto;
         margin: 0 0 14px 11px;
     }
-    
+
     h4.vosem {
         margin: 8px 0 0 11px;
-    } 
+    }
 
 
     /*TEHRAN*/
 
-    
+
 
 
     /*FATIMA*/
@@ -418,23 +527,23 @@ h4 {
 
 
 
-@media (min-width: 319px) and (max-width: 991px){
-    
+@media (min-width: 319px) and (max-width: 991px) {
+
     /*RASUL*/
-    
-    
+
+
 
     /*FATIMA*/
-    
-    
-    
+
+
+
     /*NIGAR*/
     .programma {
         max-width: 308px;
         margin: auto;
     }
-    
-    
+
+
     .lessons {
         display: flex;
         flex-wrap: wrap;
@@ -442,14 +551,14 @@ h4 {
         justify-content: center;
         margin-top: 48px;
     }
-    
-    .programma   h2 {
+
+    .programma h2 {
         max-width: 240px;
         max-height: 32px;
         margin: 0;
         font-size: 26px;
     }
-    
+
     .lessons div {
         display: flex;
         flex-wrap: wrap;
@@ -461,25 +570,137 @@ h4 {
         border-radius: 17.38px;
         box-shadow: 0.58px 0.58px 10px 0 #000000;
     }
-    
-    
+
+
     .lessons h4 {
         font-size: 17px;
         margin: 6px 0 15px 9px;
     }
-    
+
     .lessons p {
         font-size: 14px;
         font-family: Roboto;
         margin: 0 0 11px 9px;
     }
-    
+
     h4.vosem {
         margin: 8px 0 0 9px;
-    } 
+    }
 
     /*TEHRAN*/
+    .article2 {
+        background-color: #EFEFEF;
+        width: 376px;
+        height: 423px;
+    }
 
+    .card {
+        width: 791px;
+        height: 451px;
+        margin-left: 125px;
+        background-color: white;
+        box-shadow: 1px 1px 20px;
+        border-radius: 30px;
+    }
+
+    .article2 h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-left: 35px;
+        padding-top: 42px;
+    }
+
+    .card p {
+        font-family: Roboto;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-left: 45px;
+        width: 700px;
+        height: 203px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .img19 {
+        width: 190px;
+        height: 169px;
+        margin-left: 26px;
+    }
+
+    .img_fb {
+        width: 32px;
+        height: 31px;
+        margin-left: 30px;
+    }
+
+    .continue {
+        display: flex;
+    }
+
+    .article2 h4 {
+        margin-left: 30px;
+    }
+
+    .article3 {
+        font-family: Roboto Slab;
+        background-color: #9DC9C8;
+        height: 780px;
+        width: 100%;
+        padding-left: 122px;
+        padding-top: 177px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .article3 h2 {
+        margin-bottom: 0;
+    }
+
+    .stoimost {
+        width: 170px;
+        height: 32px;
+        padding-top: 54px;
+        padding-left: 6px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+
+    .cena {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 101.38%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .priziv {
+        margin-top: 0;
+    }
+    .priziv p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+    .priziv h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-top: 0;
+    }
 
 
 
