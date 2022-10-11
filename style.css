@@ -101,6 +101,26 @@ h4 {
         top: 21px;
     }
 
+<<<<<<< HEAD
+=======
+
+    /* .panel {
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin: 88px 25px 0 116px;
+        width: 493px;
+        height: 53px;
+        display: flex;
+        flex-direction: row;
+    } */
+
+    /* .panel1 {
+        width: 154px;
+        height: 44px;
+        margin-right: 26px;
+    } */
+
+>>>>>>> 8dca12d30f72d09955b0d53f69daefbd2cb9c0ae
     .panel {
         font-family: 'Roboto';
         font-size: 20px;
@@ -328,7 +348,7 @@ h4 {
 
     }
 
-    .outro {
+    /*.outro {
         max-width: 1308px;
         margin: auto;
         font-family: 'Roboto';
@@ -342,7 +362,7 @@ h4 {
         padding-right: 500px;
     }
 
-    /*.stoimost {
+    .stoimost {
         width: 170px;
         height: 32px;
         font-size: 25px;
@@ -446,6 +466,9 @@ h4 {
     h4.vosem {
         margin: 8px 0 0 19px;
     }
+
+
+
 
 
     /*Tehran*/
@@ -564,39 +587,71 @@ h4 {
 
     /*Fatima*/
     .icons {
-        max-width: 1440px;
-        height: 390px;
+        max-width: 199px;
+        max-height: 133px;
+
+        align-items: start;
+
+    }
+
+    .qav {
+        max-width: 1147px;
+        max-height: 390px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
     }
 
     footer {
         width: 100%;
         background-color: #000000;
+        color: white;
+    }
+
+    .black {
+        max-width: 1147px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .sinxr {
         width: 115px;
         height: 68px;
-        margin-bottom: 272px;
-        margin-left: 121px;
         margin-top: 50px;
     }
 
     .social {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
     }
 
     .social img {
-        max-width: 33px;
-        height: 34px;
-        margin: 20px;
-        padding-left: 122px;
+        width: 38px;
+        height: 35px;
+
 
     }
 
+    .number img {
+        /*margin-right: 201px;
+        margin-top: 52px;
+        margin-left: 972px;*/
+        width: 27px;
+        height: 27px;
 
+    }
 
+    .number p {
+        width: 230px;
+        height: 40px;
+        /*margin-left: 1025px;
+        margin-top: 62px;
+        margin-right: 185px;*/
 
-
+    }
 }
 
 /****************TABLET****************/
@@ -613,6 +668,89 @@ h4 {
 
 
     /*FATIMA*/
+    
+    h2 {
+        font-size: 32px;
+    }
+        
+    }
+    .info {
+        min-width: 770px;
+        margin: auto;
+        align-items: start;
+        margin-bottom: 236px;
+    }
+
+
+
+    .format {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        max-width: 573px;
+    }
+
+    .format h3 {
+        color: #1E4681;
+        font-size: 15px;
+    }
+
+    .format p {
+        font-size: 11px;
+    }
+
+    .online {
+        width: 223px;
+        height: 39px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .kabi {
+        width: 271px;
+        height: 109px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .prepod {
+        width: 245px;
+        height: 39px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .spiski {
+        width: 662px;
+        height: 374px;
+
+        margin-top: 21px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+
+    }
+
 
 
 
