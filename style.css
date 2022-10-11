@@ -43,15 +43,8 @@ h4 {
 .shekil {
     width: 112px;
     height: 66px;
-    margin-top: 21px;
-    margin-left: 121px;
 }
 
-.panel1 {
-    width: 158px;
-    height: 44px;
-    margin-right: 26px;
-}
 
 .info {
     max-width: 1002px;
@@ -69,27 +62,6 @@ h4 {
     color: #1E4681;
 }
 
-.panel2 {
-    width: 134px;
-    height: 44px;
-    margin-left: 0;
-    margin-right: 19px;
-}
-
-.panel3 {
-    width: 156px;
-    height: 44px;
-}
-
-.panel {
-    font-family: 'Roboto';
-    font-size: 20px;
-    margin: 88px 25px 0 116px;
-    width: 493px;
-    height: 44px;
-    display: flex;
-    flex-direction: row;
-}
 
 .online {
     width: 223px;
@@ -109,40 +81,188 @@ h4 {
 @media (min-width: 1280px) {
 
     /*Rasul*/
+
+
+    header {
+        margin: auto;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 1271px;
+        height: 497px;
+        margin: auto;
+        margin-bottom: 200px;
+    }
+
+    .qolova {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 451px;
+    }
+
     .shekil {
         width: 112px;
         height: 66px;
-        margin-top: 21px;
-        margin-left: 121px;
+        padding-bottom: 83px;
+        padding-top: 20px;
+
     }
 
     .panel {
         font-family: 'Roboto';
         font-size: 20px;
-        margin: 88px 25px 0 116px;
-        width: 493px;
-        height: 44px;
+        display: flex;
+        flex-direction: row;
+        max-width: 493px;
+        max-width: 53px;
+    }
+
+    .ppp {
+        display: flex;
+        flex-direction: row;
+        width: 188px;
+        height: 53px;
+    }
+
+    .delimyau {
+        width: 22px;
+        height: 21px;
+        margin: 0 8px 0 0;
+        padding: 0;
+    }
+
+    .panelwow {
+        width: 163px;
+        height: 32px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .ctotopanel {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        width: 166px;
+        height: 53px;
+    }
+
+    .miau18 {
+        width: 126px;
+        height: 53px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .panelmiau {
+        width: 22px;
+        height: 22px;
+        margin: 0 8px 0 0;
+        padding: 0;
+    }
+
+    .lastmiau {
+        display: flex;
+        flex-direction: row;
+        width: 190px;
+        height: 53px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .panelmeow {
+        width: 20px;
+        height: 22px;
+        margin: 0 8px 0 0;
+        padding: 0;
+    }
+
+    .daredevil {
+        width: 150px;
+        height: 53px;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+
+    .introduction {
+        height: 232px;
+        width: 587px;
+        margin-top: 34;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+
+    }
+
+    .how {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 101.38%;
+    }
+
+
+    .dude {
+        width: 418px;
+        height: 451px;
+    }
+
+
+    .eight {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .ziritel {
+        width: 484px;
+        height: 200px;
+        padding: 19px 13px 20px 20px;
+        margin: auto;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        background-color: #1E4681;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .andruxa {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .about {
+        width: 1175px;
+        height: 794px;
+        left: 105px;
+    }
+
+    .article1 {
         display: flex;
         flex-direction: row;
     }
 
-    .panel1 {
-        width: 158px;
-        height: 44px;
-        margin-right: 26px;
+    .qaqash {
+        width: 314px;
+        height: 315px;
     }
 
-    .panel2 {
-        width: 134px;
-        height: 44px;
-        margin-left: 0;
-        margin-right: 19px;
+    .ischez {
+        width: 232px;
+        height: 203px;
     }
 
-    .panel3 {
-        width: 156px;
-        height: 44px;
-    }
 
     /*Fatima*/
     .info {
@@ -151,8 +271,8 @@ h4 {
         align-items: start;
         margin-bottom: 236px;
     }
-    
-   
+
+
 
     .format {
         display: flex;
@@ -160,16 +280,12 @@ h4 {
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: 982px;
+        max-height: 122px;
+        margin-bottom: 220px;
     }
 
     .format h3 {
         color: #1E4681;
-    }
-
-    .format div {
-        max-width: 2000px;
-        font-weight: 600;
-
     }
 
     .online {
@@ -211,7 +327,7 @@ h4 {
     .spiski {
         width: 662px;
         height: 374px;
-       
+
         margin-top: 21px;
 
         font-family: 'Roboto';
@@ -220,82 +336,15 @@ h4 {
         font-size: 24px;
         line-height: 36px;
         color: #000000;
-       
+
     }
-
-    .outro {
-        max-width: 1308px;
-        margin: auto;
-        font-family: 'Roboto';
-        font-style: normal;
-        height: 780px;
-        font-weight: 400;
-        line-height: 25px;
-        background-color: #9DC9C8;
-        padding-left: 122px;
-        padding-top: 179px;
-        padding-right: 500px;
-    }
-
-    /*.stoimost {
-        width: 170px;
-        height: 32px;
-        font-size: 25px;
-    }
-
-    .cena {
-        width: 481px;
-        height: 181px;
-        font-size: 80px;
-    }
-
-    .price :nth-child(2){
-        width: 481px;
-        height: 181px; 
-        font-size: 80px;
-    }
-
-    .price :nth-child(1) {
-        width: 170px;
-        height: 32px;
-        font-size: 25px;
-    }
-
-    .priziv {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .left {
-        box-sizing: border-box;
-        width: 298px;
-        height: 105px ;
-    }
-
-    .right {
-        box-sizing: border-box;
-        width: 294px;
-        height: 102px;
-        margin-left: 70px;
-    }
-    .outro p {
-        width: 294px;
-        height: 70px;
-        font-size: 18px;
-    }
-*/
-
-
-
-
-
 
 
     /* Nigar*/
     .programma {
         max-width: 1308px;
         margin: auto;
+        justify-content: center;
     }
 
 
@@ -321,7 +370,7 @@ h4 {
         max-height: 350px;
         margin: 0 18.5px 43px 18.5px;
         border-radius: 30px;
-        box-shadow: 1px 1px 15px 0 #000000;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
 
 
@@ -341,6 +390,9 @@ h4 {
     h4.vosem {
         margin: 8px 0 0 19px;
     }
+
+
+
 
 
     /*Tehran*/
@@ -402,14 +454,12 @@ h4 {
         background-color: #9DC9C8;
         height: 780px;
         width: 100%;
-        padding-left: 122px;
-        padding-top: 177px;
         font-size: 35px;
         font-weight: 700;
     }
 
     .article3 h2 {
-        margin-bottom: 0;
+        margin: 0;
     }
 
     .stoimost {
@@ -440,7 +490,8 @@ h4 {
         display: flex;
         padding-top: 61px;
     }
-    .priziv p{
+
+    .priziv p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -449,7 +500,8 @@ h4 {
         margin-bottom: 0;
         width: 294px;
     }
-    .priziv h3{
+
+    .priziv h3 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -459,40 +511,86 @@ h4 {
     }
 
     /*Fatima*/
-     .icons {
-        max-width: 1440px;
-        height: 390px;
-     }
+    .icons {
+        max-width: 199px;
+        max-height: 133px;
 
-     footer {
+        align-items: start;
+
+    }
+
+    .qav {
+        max-width: 1147px;
+        max-height: 390px;
+        margin: auto;
+        padding-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer {
         width: 100%;
         background-color: #000000;
-     }
+        color: white;
+        padding-top: 50px;
+    }
 
-     .sinxr {
+    .black {
+        max-width: 1147px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 135px;
+    }
+
+    .sinxr {
         width: 115px;
         height: 68px;
-        margin-bottom: 272px;
-        margin-left: 121px;
-        margin-top: 50px;
-     }
-     .social {
+    }
+
+    .social {
         display: flex;
-     }
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 199px;
+        height: 37px;
+    }
 
-     .social img {
-        max-width: 33px;
-        height: 34px;
-        margin: 20px;
-        padding-left: 122px;
+    .social img {
+        width: 33px;
+        height: 33px;
+    }
 
-     }
+    .contacts div {
+        max-width: 298px;
+        max-height: 41px;
+    }
 
+    .contacts img {
+        width: 27px;
+        margin: 10px;
+    }
 
+    .contacts p {
+        margin: 0;
+    }
 
-
+    .number,
+    .mail {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
 
 }
+
+
+
+
+
+
 
 /****************TABLET****************/
 /****************TABLET****************/
@@ -508,6 +606,90 @@ h4 {
 
 
     /*FATIMA*/
+
+    h2 {
+        font-size: 32px;
+    }
+
+
+
+    .info {
+        min-width: 770px;
+        margin: auto;
+        align-items: start;
+        margin-bottom: 236px;
+    }
+
+
+
+    .format {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        max-width: 573px;
+    }
+
+    .format h3 {
+        color: #1E4681;
+        font-size: 15px;
+    }
+
+    .format p {
+        font-size: 11px;
+    }
+
+    .online {
+        width: 223px;
+        height: 39px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .kabi {
+        width: 271px;
+        height: 109px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .prepod {
+        width: 245px;
+        height: 39px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .spiski {
+        width: 662px;
+        height: 374px;
+
+        margin-top: 21px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+
+    }
+
 
 
 
@@ -551,7 +733,7 @@ h4 {
         font-size: 17px;
         margin: 11px 0 19px 11px;
     }
-    
+
     .lessons p {
         font-size: 14px;
         font-family: Roboto;
@@ -570,7 +752,7 @@ h4 {
         height: 451.75px;
     }
 
-    
+
 
     .card {
         margin-left: 73px;
@@ -606,11 +788,13 @@ h4 {
         margin-left: 17px;
         margin-top: 0;
     }
+
     .stoimost {
         width: 170px;
         height: 32px;
         font-size: 25px;
     }
+
     .outro {
         margin: auto;
         font-family: 'Roboto';
@@ -631,9 +815,9 @@ h4 {
         font-size: 80px;
     }
 
-    .price :nth-child(2){
+    .price :nth-child(2) {
         width: 481px;
-        height: 181px; 
+        height: 181px;
         font-size: 80px;
     }
 
@@ -652,7 +836,7 @@ h4 {
     .left {
         box-sizing: border-box;
         width: 298px;
-        height: 105px ;
+        height: 105px;
     }
 
     .right {
@@ -661,6 +845,7 @@ h4 {
         height: 102px;
         margin-left: 70px;
     }
+
     .outro p {
         width: 294px;
         height: 70px;
@@ -669,10 +854,9 @@ h4 {
 
     /*FATIMA*/
 
-
-
-
 }
+
+
 
 
 
@@ -687,20 +871,20 @@ h4 {
 @media (min-width: 319px) and (max-width: 991px) {
 
     /*RASUL*/
-    
-    
+
+
 
     /*FATIMA*/
-    
-    
-    
+
+
+
     /*NIGAR*/
     .programma {
         max-width: 308px;
         margin: auto;
     }
-    
-    
+
+
     .lessons {
         display: flex;
         flex-wrap: wrap;
@@ -708,14 +892,14 @@ h4 {
         justify-content: center;
         margin-top: 48px;
     }
-    
-    .programma   h2 {
+
+    .programma h2 {
         max-width: 240px;
         max-height: 32px;
         margin: 0;
         font-size: 26px;
     }
-    
+
     .lessons div {
         display: flex;
         flex-wrap: wrap;
@@ -727,19 +911,19 @@ h4 {
         border-radius: 17.38px;
         box-shadow: 0.58px 0.58px 10px 0 #000000;
     }
-    
-    
+
+
     .lessons h4 {
         font-size: 17px;
         margin: 6px 0 15px 9px;
     }
-    
+
     .lessons p {
         font-size: 14px;
         font-family: Roboto;
         margin: 0 0 11px 9px;
     }
-    
+
     h4.vosem {
         margin: 8px 0 0 9px;
     }
@@ -842,7 +1026,8 @@ h4 {
     .priziv {
         margin-top: 0;
     }
-    .priziv p{
+
+    .priziv p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -850,7 +1035,8 @@ h4 {
         line-height: 101.38%;
         margin-bottom: 0;
     }
-    .priziv h3{
+
+    .priziv h3 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
