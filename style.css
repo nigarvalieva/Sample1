@@ -83,6 +83,17 @@ h4 {
 @media (min-width: 1280px) {
 
     /*Rasul*/
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+        width: 1271px;
+        height: 497px;
+        margin: 97px 0 0 121px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
     .shekil {
         width: 112px;
         height: 66px;
@@ -90,29 +101,12 @@ h4 {
         top: 21px;
     }
 
-    /* .panel {
-        font-family: 'Roboto';
-        font-size: 20px;
-        margin: 88px 25px 0 116px;
-        width: 493px;
-        height: 53px;
-        display: flex;
-        flex-direction: row;
-    } */
-
-    /* .panel1 {
-        width: 154px;
-        height: 44px;
-        margin-right: 26px;
-    } */
-
     .panel {
         font-family: 'Roboto';
         font-size: 20px;
         display: flex;
         flex-direction: row;
         /* justify-content: space-between; */
-        margin: 97px 0 0 121px;
         max-width: 493px;
         max-width: 53px;
     }
@@ -186,32 +180,27 @@ h4 {
     }
 
     .introduction {
-        display: flex;
-        flex-direction: row;
-        height: 179px;
-        /*justify-content: center;*/
-    }
+        height: 232px;
+        width: 587px;
+        margin-top: 34;
+        font-family: 'Roboto Slab';
+        font-style: normal;
 
-    /*.introduction {
-        display: flex;
-        flex-direction: column;
-    }*/
+    }
 
     .how {
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
         font-size: 80px;
-        width: 628px;
-        height: 179px;
-        margin: 29px 0 0 122px;
+        line-height: 101.38%;
     }
 
 
     .dude {
-        width: 304px;
-        height: 356px;
-        margin-left: 140px;
+        /* margin-left: 137px; */
+        width: 418px;
+        height: 451px;
     }
 
 
@@ -220,9 +209,28 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        width: 414px;
-        height: 62px;
-        margin: 0 0 0 122px;
+    }
+
+    .ziritel {
+        width: 484px;
+        height: 200px;
+        padding: 19px 13px 20px 20px;
+        margin: 46px 0 0 408px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        background-color: #1E4681;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .andruxa {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: right;
     }
 
     .about {
@@ -245,26 +253,6 @@ h4 {
         width: 232px;
         height: 203px;
     }
-
-    /* .panel2 {
-        width: 134px;
-        height: 44px;
-        margin-left: 0;
-        margin-right: 19px;
-    } */
-
-    /* .panel3 {
-        width: 156px;
-        height: 44px;
-    } */
-
-    /*.spiski {
-        width: 662px;
-        height: 374px;
-        margin-left: 138px;
-        margin-top: 21px;
-    } */
-
 
 
     /*Fatima*/
