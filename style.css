@@ -667,88 +667,88 @@ h4 {
 
     /*FATIMA*/
 
-    h2 {
-        font-size: 32px;
-    }
+h2 {
+   font-size: 32px;
 
 }
 
 .info {
-    min-width: 770px;
+    max-width: 308px;
+    max-height: 276px;
     margin: auto;
     align-items: start;
-    margin-bottom: 236px;
+    margin-bottom: 73px;
+    
 }
 
 
 
 .format {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    
     max-width: 573px;
+    
 }
 
 .format h3 {
     color: #1E4681;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .format p {
-    font-size: 11px;
+    font-size: 10px;
+    line-height: 13px;
+
 }
 
 .online {
-    width: 223px;
-    height: 39px;
+    width: 180px;
+    height: 48px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
     color: #000000;
 }
 
 .kabi {
-    width: 271px;
-    height: 109px;
+    width: 180px;
+    height: 41px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 23px;
     color: #000000;
 }
 
 .prepod {
-    width: 245px;
-    height: 39px;
+    width: 180px;
+    height: 33px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 23px;
     color: #000000;
 }
 
 .spiski {
-    width: 662px;
-    height: 374px;
-
-    margin-top: 21px;
-
+    width: 308x;
+    height: 195px;
+    margin-top: 24px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 12px;
+    line-height: 21px;
     color: #000000;
 
 }
+
 
 
 
@@ -935,6 +935,87 @@ h4.vosem {
 
 
     /*FATIMA*/
+
+    h2 {
+        font-size: 26px;
+     
+     }
+     
+     .info {
+         min-width: 770px;
+         margin: auto;
+         align-items: start;
+         margin-bottom: 119px;
+     }
+     
+     
+     
+     .format {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         flex-wrap: nowrap;
+         max-width: 573px;
+         
+     }
+     
+     .format h3 {
+         color: #1E4681;
+         font-size: 15px;
+     }
+     
+     .format p {
+         font-size: 11px;
+         line-height: 14px;
+     
+     }
+     
+     .online {
+         width: 153px;
+         height: 22px;
+     
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 400;
+         color: #000000;
+     }
+     
+     .kabi {
+         width: 172px;
+         height: 63px;
+     
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 400;
+         line-height: 23px;
+         color: #000000;
+     }
+     
+     .prepod {
+         width: 141.9px;
+         height: 22.59px;
+     
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 400;
+         line-height: 23px;
+         color: #000000;
+     }
+     
+     .spiski {
+         width: 394x;
+         height: 236px;
+         margin-top: 28px;
+         
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 21px;
+         color: #000000;
+     
+     }
+     
 
 
 
