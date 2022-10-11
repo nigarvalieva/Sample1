@@ -269,8 +269,13 @@ h4 {
 
     /*Fatima*/
     .info {
-        max-width: 1002px;
+        max-width: 1200px;
+        margin: auto;
+        align-items: start;
+        margin-bottom: 236px;
     }
+
+
 
     .format {
         display: flex;
@@ -323,7 +328,7 @@ h4 {
     .spiski {
         width: 662px;
         height: 374px;
-        margin-left: 138px;
+
         margin-top: 21px;
 
         font-family: 'Roboto';
@@ -332,7 +337,71 @@ h4 {
         font-size: 24px;
         line-height: 36px;
         color: #000000;
+
     }
+
+    .outro {
+        max-width: 1308px;
+        margin: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        height: 780px;
+        font-weight: 400;
+        line-height: 25px;
+        background-color: #9DC9C8;
+        padding-left: 122px;
+        padding-top: 179px;
+        padding-right: 500px;
+    }
+
+    /*.stoimost {
+        width: 170px;
+        height: 32px;
+        font-size: 25px;
+    }
+
+    .cena {
+        width: 481px;
+        height: 181px;
+        font-size: 80px;
+    }
+
+    .price :nth-child(2){
+        width: 481px;
+        height: 181px; 
+        font-size: 80px;
+    }
+
+    .price :nth-child(1) {
+        width: 170px;
+        height: 32px;
+        font-size: 25px;
+    }
+
+    .priziv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .left {
+        box-sizing: border-box;
+        width: 298px;
+        height: 105px ;
+    }
+
+    .right {
+        box-sizing: border-box;
+        width: 294px;
+        height: 102px;
+        margin-left: 70px;
+    }
+    .outro p {
+        width: 294px;
+        height: 70px;
+        font-size: 18px;
+    }
+*/
 
 
 
@@ -392,10 +461,151 @@ h4 {
 
 
     /*Tehran*/
+    .article2 {
+        background-color: #EFEFEF;
+        height: 780px;
+        width: 100%;
+    }
 
+    .card {
+        width: 791px;
+        height: 451px;
+        margin-left: 125px;
+        background-color: white;
+        box-shadow: 1px 1px 20px;
+        border-radius: 30px;
+    }
 
+    .article2 h2 {
+        font-family: Roboto Slab;
+        font-weight: 700;
+        padding-left: 121px;
+        padding-top: 91px;
+    }
+
+    .card p {
+        font-family: Roboto;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-left: 45px;
+        width: 700px;
+        height: 203px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .img19 {
+        width: 190px;
+        height: 169px;
+        margin-left: 26px;
+    }
+
+    .img_fb {
+        width: 32px;
+        height: 31px;
+        margin-left: 30px;
+    }
+
+    .continue {
+        display: flex;
+    }
+
+    .article2 h4 {
+        margin-left: 30px;
+    }
+
+    .article3 {
+        font-family: Roboto Slab;
+        background-color: #9DC9C8;
+        height: 780px;
+        width: 100%;
+        padding-left: 122px;
+        padding-top: 177px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .article3 h2 {
+        margin-bottom: 0;
+    }
+
+    .stoimost {
+        width: 170px;
+        height: 32px;
+        padding-top: 54px;
+        padding-left: 6px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+
+    .cena {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 101.38%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .priziv {
+        margin-top: 0;
+    }
+
+    .priziv p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+
+    .priziv h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-top: 0;
+    }
 
     /*Fatima*/
+    .icons {
+        max-width: 1440px;
+        height: 390px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #000000;
+    }
+
+    .sinxr {
+        width: 115px;
+        height: 68px;
+        margin-bottom: 272px;
+        margin-left: 121px;
+        margin-top: 50px;
+    }
+
+    .social {
+        display: flex;
+    }
+
+    .social img {
+        max-width: 33px;
+        height: 34px;
+        margin: 20px;
+        padding-left: 122px;
+
+    }
+
+
 
 
 
@@ -471,9 +681,111 @@ h4 {
 
 
     /*TEHRAN*/
+    .article2 {
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 451.75px;
+    }
 
 
 
+    .card {
+        margin-left: 73px;
+        background-color: white;
+        border-radius: 17.375px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        width: 458.12px;
+        height: 261.2px;
+    }
+
+    .img19 {
+        width: 110.04px;
+        height: 97.88px;
+        margin-left: 15px;
+    }
+
+    .pict {
+        display: flex;
+    }
+
+    .pict h4 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 101.38%;
+        margin-left: 17px;
+    }
+
+    .imgfb {
+        width: 18.53px;
+        height: 17.95px;
+        margin-left: 17px;
+        margin-top: 0;
+    }
+
+    .stoimost {
+        width: 170px;
+        height: 32px;
+        font-size: 25px;
+    }
+
+    .outro {
+        margin: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        height: 451.75px;
+        font-weight: 400;
+        line-height: 25px;
+        background-color: #9DC9C8;
+        padding-left: 122px;
+        padding-top: 179px;
+        padding-right: 500px;
+        width: 100%;
+    }
+
+    .cena {
+        width: 481px;
+        height: 181px;
+        font-size: 80px;
+    }
+
+    .price :nth-child(2) {
+        width: 481px;
+        height: 181px;
+        font-size: 80px;
+    }
+
+    .price :nth-child(1) {
+        width: 170px;
+        height: 32px;
+        font-size: 25px;
+    }
+
+    .priziv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .left {
+        box-sizing: border-box;
+        width: 298px;
+        height: 105px;
+    }
+
+    .right {
+        box-sizing: border-box;
+        width: 294px;
+        height: 102px;
+        margin-left: 70px;
+    }
+
+    .outro p {
+        width: 294px;
+        height: 70px;
+        font-size: 18px;
+    }
 
     /*FATIMA*/
 
@@ -553,7 +865,121 @@ h4 {
     }
 
     /*TEHRAN*/
+    .article2 {
+        background-color: #EFEFEF;
+        width: 376px;
+        height: 423px;
+    }
 
+    .card {
+        width: 791px;
+        height: 451px;
+        margin-left: 125px;
+        background-color: white;
+        box-shadow: 1px 1px 20px;
+        border-radius: 30px;
+    }
+
+    .article2 h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-left: 35px;
+        padding-top: 42px;
+    }
+
+    .card p {
+        font-family: Roboto;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-left: 45px;
+        width: 700px;
+        height: 203px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .img19 {
+        width: 190px;
+        height: 169px;
+        margin-left: 26px;
+    }
+
+    .img_fb {
+        width: 32px;
+        height: 31px;
+        margin-left: 30px;
+    }
+
+    .continue {
+        display: flex;
+    }
+
+    .article2 h4 {
+        margin-left: 30px;
+    }
+
+    .article3 {
+        font-family: Roboto Slab;
+        background-color: #9DC9C8;
+        height: 780px;
+        width: 100%;
+        padding-left: 122px;
+        padding-top: 177px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .article3 h2 {
+        margin-bottom: 0;
+    }
+
+    .stoimost {
+        width: 170px;
+        height: 32px;
+        padding-top: 54px;
+        padding-left: 6px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+
+    .cena {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 101.38%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .priziv {
+        margin-top: 0;
+    }
+
+    .priziv p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+    }
+
+    .priziv h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-top: 0;
+    }
 
 
 
