@@ -593,7 +593,7 @@ h4 {
         justify-content: space-between;
      }
 
-    footer {
+     footer {
         width: 100%;
         background-color: #000000;
         color: white;
@@ -605,7 +605,7 @@ h4 {
 
      }
 
-    .sinxr {
+     .sinxr {
         width: 115px;
         height: 68px;
         margin-top: 50px;
@@ -626,9 +626,9 @@ h4 {
      }
 
      .number img {
-        margin-right: 201px;
+        /*margin-right: 201px;
         margin-top: 52px;
-        margin-left: 972px;
+        margin-left: 972px;*/
         width: 30px;
         height: 33px;
 
@@ -637,9 +637,9 @@ h4 {
       .number p {
         width: 230px;
         height: 40px;
-        margin-left: 1025px;
+        /*margin-left: 1025px;
         margin-top: 62px;
-        margin-right: 185px;
+        margin-right: 185px;*/
 
         font-family: 'Roboto';
         font-style: normal;
@@ -655,6 +655,13 @@ h4 {
         margin-left: 972px;
         width: 31px;
         height: 22px;
+      }
+
+      .number {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        
       }
 
      
