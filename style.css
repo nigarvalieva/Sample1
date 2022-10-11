@@ -661,6 +661,88 @@ h4 {
 
 
     /*FATIMA*/
+    
+    h2 {
+        font-size: 32px;
+    }
+        
+    }
+    .info {
+        min-width: 770px;
+        margin: auto;
+        align-items: start;
+        margin-bottom: 236px;
+    }
+
+
+
+    .format {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        max-width: 573px;
+    }
+
+    .format h3 {
+        color: #1E4681;
+        font-size: 15px;
+    }
+
+    .format p {
+        font-size: 11px;
+    }
+
+    .online {
+        width: 223px;
+        height: 39px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .kabi {
+        width: 271px;
+        height: 109px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .prepod {
+        width: 245px;
+        height: 39px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .spiski {
+        width: 662px;
+        height: 374px;
+
+        margin-top: 21px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+
+    }
 
 
 
