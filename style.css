@@ -460,49 +460,99 @@ h4 {
 
     /*Fatima*/
      .icons {
-        max-width: 1440px;
-        height: 390px;
+        max-width: 199px;
+        max-height: 133px;
 
+        align-items: start ;
+
+     }
+
+     .qav {
+        max-width: 1147px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
      }
 
      footer {
         width: 100%;
         background-color: #000000;
+        color: white;
+    
 
      }
      .black {
-        max-width: 1273px;
+        max-width: 1147px;
 
      }
 
      .sinxr {
         width: 115px;
         height: 68px;
-        margin-left: 122px;
         margin-top: 50px;
      }
 
      .social {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         margin-top: 30px;
      }
 
      .social img {
-        width: 33px;
-        height: 34px;
-        padding: 25px;
+        width: 38px;
+        height: 35px;
+       
         
      }
 
+     .number img {
+        margin-right: 201px;
+        margin-top: 52px;
+        margin-left: 972px;
+        width: 30px;
+        height: 33px;
+
+      }
+
+      .number p {
+        width: 230px;
+        height: 40px;
+        margin-left: 1025px;
+        margin-top: 62px;
+        margin-right: 185px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 25px;
+
+      }
+
+      .mail img {
+        margin-right: 201px;
+        margin-top: 18px;
+        margin-left: 972px;
+        width: 31px;
+        height: 22px;
+      }
+
+     
+
     
-      .number {
+      /*.number {
         width: 266px;
         height: 35px;
         margin-right: 201px;
         margin-top: 30px;
         margin-left: 972px;
 
-      }
+
+
+      }*/
+    
+
 
 
 
