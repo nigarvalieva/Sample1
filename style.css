@@ -21,29 +21,7 @@ img {
 }
 
 
-h2 {
-    font-family: Roboto Slab;
-    font-size: 55px;
-    font-weight: bold;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-    color: #000000;
-}
 
-h3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 32px;
-}
-
-h4 {
-    font-family: Roboto;
-    font-style: bold;
-    font-size: 30px;
-}
 
 
 
@@ -55,20 +33,52 @@ h4 {
 /****************DESKTOP****************/
 
 @media (min-width: 1280px) {
+    main {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-family: Roboto Slab;
+        font-size: 55px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        color: #000000;
+    }
+    
+    h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    
+    h4 {
+        font-family: Roboto;
+        font-style: bold;
+        font-size: 30px;
+    }
+
 
     /*Rasul*/
 
 
     header {
-        margin: auto;
+        margin-left: 118px;
+        width: 1142px;
     }
 
     .intro {
         display: flex;
         flex-direction: column;
-        width: 1271px;
         height: 497px;
-        margin: auto;
         margin-bottom: 200px;
     }
 
@@ -200,7 +210,7 @@ h4 {
         width: 484px;
         height: 200px;
         padding: 19px 13px 20px 20px;
-        margin: auto;
+        margin-left: 408px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 400;
@@ -243,7 +253,7 @@ h4 {
     /*Fatima*/
     .info {
         max-width: 1200px;
-        margin: auto;
+        margin-left: 105px;
         align-items: start;
         margin-bottom: 236px;
     }
@@ -319,7 +329,7 @@ h4 {
     /* Nigar*/
     .programma {
         max-width: 1308px;
-        justify-content: center;
+        margin-left: 66px;
     }
 
 
@@ -591,20 +601,29 @@ h4 {
 
 @media (min-width: 991px) and (max-width: 1279px) {
 
+    main {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /*RASUL*/
 
 
 
 
     /*FATIMA*/
-    h2 {
+    .info h2 {
         font-size: 26px;
 
     }
 
     .info {
         max-width: 770px;
-        margin: auto;
+        margin-left: 69px;
         align-items: start;
         margin-bottom: 119px;
     }
@@ -684,7 +703,7 @@ h4 {
 
     .programma {
         max-width: 770px;
-        margin: auto;
+        margin-left: 30px;
     }
 
 
@@ -711,7 +730,7 @@ h4 {
         max-height: 192px;
         margin: 0 10.5px 43px 10.5px;
         border-radius: 17.38px;
-        box-shadow: 0.58px 0.58px 10px 0 #000000;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
 
 
@@ -971,13 +990,22 @@ h4 {
 
 @media (min-width: 319px) and (max-width: 991px) {
 
+    main {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /*RASUL*/
 
 
 
     /*FATIMA*/
 
-    h2 {
+    .info h2 {
         font-size: 26px;
         padding-bottom: 28px;
 
@@ -985,7 +1013,7 @@ h4 {
 
     .info {
         max-width: 308px;
-        margin: auto;
+        margin-left: 35px;
         align-items: start;
         margin-bottom: 150px;
     }
@@ -1016,7 +1044,7 @@ h4 {
 
     .format div {
         padding-bottom: 27px;
-        height: 216px;
+        width: 180px;
     }
 
 
@@ -1056,7 +1084,6 @@ h4 {
     .spiski {
         width: 308px;
         height: 195px;
-        padding-top: 28px;
         margin: auto;
 
         font-family: 'Roboto';
@@ -1068,11 +1095,15 @@ h4 {
 
     }
 
+    ul {
+        padding-left: 20px;
+    }
+
 
     /*NIGAR*/
     .programma {
         max-width: 308px;
-        margin: auto;
+        margin-left: 35px;
     }
 
 
@@ -1100,7 +1131,7 @@ h4 {
         max-height: 192px;
         margin: 0 10.5px 43px 10.5px;
         border-radius: 17.38px;
-        box-shadow: 0.58px 0.58px 10px 0 #000000;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
 
 
@@ -1137,7 +1168,7 @@ h4 {
         height: 248px;
         margin-left: 36px;
         background-color: white;
-        box-shadow: 1px 1px 20px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
@@ -1157,7 +1188,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        line-height: 150%;
         padding-top: 19px;
         padding-left: 21px;
         width: 263px;
@@ -1220,7 +1250,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 101.38%;
         margin-bottom: 0;
         margin-top: 0;
         padding-left: 0;
@@ -1232,7 +1261,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 37px;
-        line-height: 101.38%;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -1247,7 +1275,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        line-height: 101.38%;
         margin-bottom: 5px;
         width: 138px;
         margin-top: 0;
@@ -1258,7 +1285,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 101.38%;
         margin-top: 35px;
         width: 137px;
     }
@@ -1304,8 +1330,8 @@ h4 {
     }
 
     .sinxr {
-        width: 54px;
-        height: 38px;
+        width: 53.59px;
+        height: 31.69px;
     }
 
     .social {
@@ -1325,6 +1351,7 @@ h4 {
     .contacts div {
         max-width: 150px;
         max-height: 20px;
+        margin-left: -10px;
     }
 
     .contacts img {
