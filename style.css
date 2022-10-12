@@ -3,12 +3,17 @@
 
 body {
     font-family: Roboto, Roboto Slab;
-    margin: auto;
+    width: 100%;
+    margin: 0;
 }
 
 main {
     width: 100%;
-    margin: auto;
+    margin: 0;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -16,58 +21,7 @@ img {
 }
 
 
-h2 {
-    font-family: Roboto Slab;
-    font-size: 55px;
-    font-weight: bold;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-    color: #000000;
-}
 
-h3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 32px;
-}
-
-h4 {
-    font-family: Roboto;
-    font-style: bold;
-    font-size: 30px;
-}
-
-.shekil {
-    width: 112px;
-    height: 66px;
-}
-
-
-.info {
-    max-width: 1002px;
-}
-
-.format {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 982px;
-}
-
-.format h3 {
-    color: #1E4681;
-}
-
-
-.online {
-    width: 223px;
-    height: 39px;
-    margin: 0;
-}
 
 
 
@@ -79,20 +33,52 @@ h4 {
 /****************DESKTOP****************/
 
 @media (min-width: 1280px) {
+    main {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-family: Roboto Slab;
+        font-size: 55px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        color: #000000;
+    }
+    
+    h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    
+    h4 {
+        font-family: Roboto;
+        font-style: bold;
+        font-size: 30px;
+    }
+
 
     /*Rasul*/
 
 
     header {
-        margin: auto;
+        margin-left: 118px;
+        width: 1142px;
     }
 
     .intro {
         display: flex;
         flex-direction: column;
-        width: 1271px;
         height: 497px;
-        margin: auto;
         margin-bottom: 200px;
     }
 
@@ -224,7 +210,7 @@ h4 {
         width: 484px;
         height: 200px;
         padding: 19px 13px 20px 20px;
-        margin: auto;
+        margin-left: 408px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 400;
@@ -267,7 +253,7 @@ h4 {
     /*Fatima*/
     .info {
         max-width: 1200px;
-        margin: auto;
+        margin-left: 105px;
         align-items: start;
         margin-bottom: 236px;
     }
@@ -343,8 +329,7 @@ h4 {
     /* Nigar*/
     .programma {
         max-width: 1308px;
-        margin: auto;
-        justify-content: center;
+        margin-left: 66px;
     }
 
 
@@ -398,14 +383,16 @@ h4 {
     /*Tehran*/
     .article2 {
         background-color: #EFEFEF;
-        height: 780px;
+        max-height: 780px;
         width: 100%;
+        padding-bottom: 111px;
     }
 
     .card {
-        width: 791px;
-        height: 451px;
+        max-width: 791px;
+        max-height: 451px;
         margin-left: 125px;
+        padding-bottom: 30px;
         background-color: white;
         box-shadow: 1px 1px 20px;
         border-radius: 30px;
@@ -448,6 +435,12 @@ h4 {
     .article2 h4 {
         margin-left: 30px;
         margin-bottom: 21px;
+    }
+
+    .section {
+        width: 785px;
+        height: 407px;
+        margin-left: 115px;
     }
 
     .article3 {
@@ -609,7 +602,16 @@ h4 {
 
 
 
-@media (min-width: 991px) and (max-width: 1280px) {
+@media (min-width: 991px) and (max-width: 1279px) {
+
+    main {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 
     /*RASUL*/
 
@@ -617,18 +619,16 @@ h4 {
 
 
     /*FATIMA*/
+    .info h2 {
+        font-size: 26px;
 
-    h2 {
-        font-size: 32px;
     }
 
-
-
     .info {
-        min-width: 770px;
-        margin: auto;
+        max-width: 770px;
+        margin-left: 69px;
         align-items: start;
-        margin-bottom: 236px;
+        margin-bottom: 119px;
     }
 
 
@@ -639,6 +639,7 @@ h4 {
         justify-content: space-between;
         flex-wrap: nowrap;
         max-width: 573px;
+
     }
 
     .format h3 {
@@ -648,59 +649,55 @@ h4 {
 
     .format p {
         font-size: 11px;
+        line-height: 14px;
+
     }
 
     .online {
-        width: 223px;
-        height: 39px;
+        width: 153px;
+        height: 22px;
 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 23px;
         color: #000000;
     }
 
     .kabi {
-        width: 271px;
-        height: 109px;
+        width: 172px;
+        height: 63px;
 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
         line-height: 23px;
         color: #000000;
     }
 
     .prepod {
-        width: 245px;
-        height: 39px;
+        width: 141.9px;
+        height: 22.59px;
 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
         line-height: 23px;
         color: #000000;
     }
 
     .spiski {
-        width: 662px;
-        height: 374px;
-
-        margin-top: 21px;
+        width: 394x;
+        height: 236px;
+        margin-top: 28px;
 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 14px;
+        line-height: 21px;
         color: #000000;
 
     }
-
 
 
 
@@ -709,7 +706,7 @@ h4 {
 
     .programma {
         max-width: 770px;
-        margin: auto;
+        margin-left: 30px;
     }
 
 
@@ -736,7 +733,7 @@ h4 {
         max-height: 192px;
         margin: 0 10.5px 43px 10.5px;
         border-radius: 17.38px;
-        box-shadow: 0.58px 0.58px 10px 0 #000000;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
 
 
@@ -757,10 +754,17 @@ h4 {
 
 
     /*TEHRAN*/
+
+    .section {
+        min-width: 460px;
+        height: 239px;
+        margin-left: 71px;
+    }
+
     .article2 {
         background-color: #EFEFEF;
         width: 100%;
-        height: 451.75px;
+        min-height: 451.75px;
     }
 
     .article2 h2 {
@@ -860,7 +864,6 @@ h4 {
         font-weight: 400;
         line-height: 25px;
         background-color: #9DC9C8;
-
         padding-top: 77px;
         width: 100%;
         
@@ -904,10 +907,84 @@ h4 {
 
 
     /*FATIMA*/
+    .icons {
+        max-width: 114px;
+        max-height: 76px;
+
+        align-items: start;
+
+    }
+
+    .qav {
+        max-width: 656px;
+        max-height: 230px;
+        margin: auto;
+        padding-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 70px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #000000;
+        color: white;
+        padding-top: 28px;
+    }
+
+    .black {
+        max-width: 656px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 82px;
+    }
+
+    .sinxr {
+        width: 66.6px;
+        height: 39.38px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 114px;
+        height: 20px;
+    }
+
+    .social img {
+        width: 19px;
+        height: 19px;
+    }
+
+    .contacts div {
+        max-width: 166px;
+        max-height: 25px;
+    }
+
+    .contacts img {
+        width: 15px;
+        margin: 5px;
+    }
+
+    .contacts p {
+        margin: 10
+    }
+
+    .number,
+    .mail {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+
 
 }
-
-
 
 
 
@@ -921,18 +998,120 @@ h4 {
 
 @media (min-width: 319px) and (max-width: 991px) {
 
+    main {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /*RASUL*/
 
 
 
     /*FATIMA*/
 
+    .info h2 {
+        font-size: 26px;
+        padding-bottom: 28px;
+
+    }
+
+    .info {
+        max-width: 308px;
+        margin-left: 35px;
+        align-items: start;
+        margin-bottom: 150px;
+    }
+
+
+
+    .format {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 573px;
+
+    }
+
+    .format h3 {
+        color: #1E4681;
+        font-size: 12px;
+        margin: 0;
+
+    }
+
+    .format p {
+        font-size: 11px;
+        line-height: 13px;
+        margin: 0;
+
+    }
+
+    .format div {
+        padding-bottom: 27px;
+        width: 180px;
+    }
+
+
+    .online {
+        width: 180px;
+        height: 32px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    .kabi {
+        width: 180px;
+        height: 41px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    .prepod {
+        width: 180px;
+        height: 33px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    .spiski {
+        width: 308px;
+        height: 195px;
+        margin: auto;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        color: #000000;
+
+    }
+
+    ul {
+        padding-left: 20px;
+    }
 
 
     /*NIGAR*/
     .programma {
         max-width: 308px;
-        margin: auto;
+        margin-left: 35px;
     }
 
 
@@ -960,7 +1139,7 @@ h4 {
         max-height: 192px;
         margin: 0 10.5px 43px 10.5px;
         border-radius: 17.38px;
-        box-shadow: 0.58px 0.58px 10px 0 #000000;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
 
 
@@ -980,23 +1159,28 @@ h4 {
     }
 
     /*TEHRAN*/
+    .section {
+        min-width: 308px;
+        min-height: 237px;
+        margin-left: 35px;
+    }
+
     .article2 {
         display: flex;
         flex-direction: column;
         justify-self: center;
         background-color: #EFEFEF;
-        width: 100%;
-        height: 423px;
-        margin: auto;
+        min-width: 376px;
+        min-height: 423px;
     }
 
     .card {
         justify-self: center;
         width: 308px;
-        height: 241px;
+        height: 248px;
         margin-left: 36px;
         background-color: white;
-        box-shadow: 1px 1px 20px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
@@ -1016,10 +1200,10 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        line-height: 150%;
         padding-top: 19px;
         padding-left: 21px;
-        width: 266px;
+        width: 263px;
+        height: 117px;
     }
 
     .img19 {
@@ -1054,7 +1238,7 @@ h4 {
         background-color: #9DC9C8;
         height: 363.46px;
         width: 100%;
-        padding-top: 62px;
+        padding-top: 65px;
         font-size: 35px;
         font-weight: 700;
     }
@@ -1082,7 +1266,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 101.38%;
         margin-bottom: 0;
         margin-top: 0;
         padding-left: 0;
@@ -1094,7 +1277,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 37px;
-        line-height: 101.38%;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -1110,7 +1292,6 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        line-height: 101.38%;
         margin-bottom: 5px;
         width: 138px;
         margin-top: 0;
@@ -1121,14 +1302,103 @@ h4 {
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 101.38%;
         margin-top: 35px;
         width: 137px;
     }
-    .right{
+
+    .right {
         margin-left: 31px;
     }
 
 
     /*FATIMA*/
+    .icons {
+        max-width: 98px;
+        max-height: 68px;
+
+        align-items: start;
+
+    }
+
+    .qav {
+        max-width: 308px;
+        max-height: 252px;
+        margin: auto;
+        padding-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #000000;
+        color: white;
+        padding-top: 21px;
+    }
+
+    .black {
+        max-width: 308px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 82px;
+    }
+
+    .sinxr {
+        width: 53.59px;
+        height: 31.69px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 7px;
+        width: 98px;
+        height: 23px;
+    }
+
+    .social img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .contacts div {
+        max-width: 150px;
+        max-height: 20px;
+        margin-left: -10px;
+    }
+
+    .contacts img {
+        width: 12px;
+        margin: 10px;
+    }
+
+    .contacts p,
+    .qav p {
+        margin: 2px;
+        font-size: 12px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+
+    }
+
+    .number,
+    .mail {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .number {
+        margin-top: 40px;
+
+    }
+
+
+
 }
