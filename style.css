@@ -3,12 +3,17 @@
 
 body {
     font-family: Roboto, Roboto Slab;
-    margin: auto;
+    width: 100%;
+    margin: 0;
 }
 
 main {
     width: 100%;
-    margin: auto;
+    margin: 0;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -38,35 +43,6 @@ h4 {
     font-family: Roboto;
     font-style: bold;
     font-size: 30px;
-}
-
-.shekil {
-    width: 112px;
-    height: 66px;
-}
-
-
-.info {
-    max-width: 1002px;
-}
-
-.format {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 982px;
-}
-
-.format h3 {
-    color: #1E4681;
-}
-
-
-.online {
-    width: 223px;
-    height: 39px;
-    margin: 0;
 }
 
 
@@ -343,7 +319,6 @@ h4 {
     /* Nigar*/
     .programma {
         max-width: 1308px;
-        margin: auto;
         justify-content: center;
     }
 
@@ -398,14 +373,16 @@ h4 {
     /*Tehran*/
     .article2 {
         background-color: #EFEFEF;
-        height: 780px;
+        max-height: 780px;
         width: 100%;
+        padding-bottom: 111px;
     }
 
     .card {
-        width: 791px;
-        height: 451px;
+        max-width: 791px;
+        max-height: 451px;
         margin-left: 125px;
+        padding-bottom: 30px;
         background-color: white;
         box-shadow: 1px 1px 20px;
         border-radius: 30px;
@@ -450,12 +427,17 @@ h4 {
         margin-bottom: 21px;
     }
 
+    .section {
+        width: 785px;
+        height: 407px;
+        margin-left: 115px;
+    }
+
     .article3 {
         font-family: Roboto Slab;
         background-color: #9DC9C8;
         height: 780px;
         width: 100%;
-        padding-left: 122px;
         font-size: 35px;
         font-weight: 700;
     }
@@ -607,7 +589,7 @@ h4 {
 
 
 
-@media (min-width: 991px) and (max-width: 1280px) {
+@media (min-width: 991px) and (max-width: 1279px) {
 
     /*RASUL*/
 
@@ -750,10 +732,17 @@ h4 {
 
 
     /*TEHRAN*/
+
+    .section {
+        min-width: 460px;
+        height: 239px;
+        margin-left: 71px;
+    }
+
     .article2 {
         background-color: #EFEFEF;
         width: 100%;
-        height: 451.75px;
+        min-height: 451.75px;
     }
 
     .article2 h2 {
@@ -852,9 +841,7 @@ h4 {
         font-weight: 400;
         line-height: 25px;
         background-color: #9DC9C8;
-        padding-left: 122px;
         padding-top: 77px;
-        padding-right: 500px;
         width: 100%;
     }
 
@@ -960,7 +947,8 @@ h4 {
         margin: 10
     }
 
-    .number, .mail {
+    .number,
+    .mail {
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -975,391 +963,398 @@ h4 {
 
 
 
-    /****************MOBILE****************/
-    /****************MOBILE****************/
-    /****************MOBILE****************/
+/****************MOBILE****************/
+/****************MOBILE****************/
+/****************MOBILE****************/
 
 
 
-    @media (min-width: 319px) and (max-width: 991px) {
+@media (min-width: 319px) and (max-width: 991px) {
 
-        /*RASUL*/
-
-
-
-        /*FATIMA*/
-
-        h2 {
-            font-size: 26px;
-            padding-bottom: 28px;
-
-        }
-
-        .info {
-            max-width: 308px;
-            margin: auto;
-            align-items: start;
-            margin-bottom: 150px;
-        }
+    /*RASUL*/
 
 
 
-        .format {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            max-width: 573px ;
+    /*FATIMA*/
 
-        }
+    h2 {
+        font-size: 26px;
+        padding-bottom: 28px;
 
-        .format h3 {
-            color: #1E4681;
-            font-size: 12px;
-            margin: 0;
-
-        }
-
-        .format p {
-            font-size: 11px;
-            line-height: 13px;
-            margin: 0;
-
-        }
-
-        .format div {
-            padding-bottom: 27px;
-            height: 216px;
-            /* padding-top: 10px;*/
-        }
-
-
-        .online {
-            width: 180px;
-            height: 32px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            line-height: 13px;
-            color: #000000;
-        }
-
-        .kabi {
-            width: 180px;
-            height: 41px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            line-height: 13px;
-            color: #000000;
-        }
-
-        .prepod {
-            width: 180px;
-            height: 33px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            line-height: 13px;
-            color: #000000;
-        }
-
-        .spiski {
-            width: 308px;
-            height: 195px;
-            padding-top: 28px;
-            margin: auto;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 21px;
-            color: #000000;
-
-        }
-
-
-        /*NIGAR*/
-        .programma {
-            max-width: 308px;
-            margin: auto;
-        }
-
-
-        .lessons {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
-            margin-top: 48px;
-        }
-
-        .programma h2 {
-            max-width: 240px;
-            max-height: 32px;
-            margin: 0;
-            font-size: 26px;
-        }
-
-        .lessons div {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: start;
-            max-width: 233px;
-            max-height: 192px;
-            margin: 0 10.5px 43px 10.5px;
-            border-radius: 17.38px;
-            box-shadow: 0.58px 0.58px 10px 0 #000000;
-        }
-
-
-        .lessons h4 {
-            font-size: 17px;
-            margin: 6px 0 15px 9px;
-        }
-
-        .lessons p {
-            font-size: 14px;
-            font-family: Roboto;
-            margin: 0 0 11px 9px;
-        }
-
-        h4.vosem {
-            margin: 8px 0 0 9px;
-        }
-
-        /*TEHRAN*/
-        .article2 {
-            background-color: #EFEFEF;
-            width: 100%;
-            height: 423px;
-        }
-
-        .card {
-            width: 308px;
-            height: 241px;
-            margin-left: 36px;
-            background-color: white;
-            box-shadow: 1px 1px 20px;
-            border-radius: 30px;
-        }
-
-        .article2 h2 {
-            font-family: 'Roboto Slab';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 101.38%;
-            padding-left: 36px;
-            padding-top: 42px;
-            width: 257px;
-        }
-
-        .card p {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 150%;
-            padding-top: 19px;
-            padding-left: 21px;
-            width: 266px;
-        }
-
-        .img19 {
-            width: 80px;
-            height: 84px;
-            margin-left: 21px;
-        }
-
-        .img_fb {
-            width: 14.91px;
-            height: 17.2px;
-            margin-left: 14px;
-        }
-
-        .continue {
-            display: flex;
-        }
-
-        .article2 h4 {
-            font-family: 'Roboto Slab';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 101.38%;
-            margin-left: 14px;
-            margin-bottom: 18px;
-        }
-
-        .article3 {
-            font-family: Roboto Slab;
-            background-color: #9DC9C8;
-            height: 363.46px;
-            width: 100%;
-            padding-left: 122px;
-            padding-top: 177px;
-            font-size: 35px;
-            font-weight: 700;
-        }
-
-        .article3 h2 {
-            margin-bottom: 0;
-            font-family: 'Roboto Slab';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 101.38%;
-            width: 224px;
-            height: 63px;
-            margin-top: 0;
-        }
-
-        .stoimost {
-            width: 170px;
-            padding-top: 22px;
-            padding-left: 6px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 101.38%;
-            margin-bottom: 0;
-            margin-top: 0;
-            padding-left: 0;
-            padding-bottom: 0;
-        }
-
-        .cena {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 37px;
-            line-height: 101.38%;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        .priziv {
-            margin-top: 0;
-            display: flex;
-        }
-
-        .priziv p {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 101.38%;
-            margin-bottom: 5px;
-            width: 138px;
-            margin-top: 0;
-        }
-
-        .priziv h3 {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 101.38%;
-            margin-top: 35px;
-            width: 137px;
-        }
-
-        .right {
-            margin-left: 31px;
-        }
-
-
-        /*FATIMA*/
-        .icons {
-            max-width: 98px;
-            max-height: 68px;
-
-            align-items: start;
-    
-        }
-    
-        .qav {
-            max-width: 308px;
-            max-height: 252px;
-            margin: auto;
-            padding-bottom: 24px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            margin-left: 50px;
-        }
-    
-        footer {
-            width: 100%;
-            background-color: #000000;
-            color: white;
-            padding-top: 21px;
-        }
-    
-        .black {
-            max-width: 308px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            margin-bottom: 82px;
-        }
-    
-        .sinxr {
-            width: 54px;
-            height: 38px;
-        }
-    
-        .social {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 7px;
-            width: 98px;
-            height: 23px;
-        }
-    
-        .social img {
-            width: 15px;
-            height: 15px;
-        }
-    
-        .contacts div {
-            max-width: 150px;
-            max-height: 20px;
-        }
-    
-        .contacts img {
-            width: 12px;
-            margin: 10px;
-        }
-    
-        .contacts p, .qav p {
-            margin: 2px;
-            font-size: 12px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            
-        }
-    
-        .number, .mail {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-          
-        }
-
-        .number {
-            margin-top: 40px;
-
-        }
-
-        
-        
     }
+
+    .info {
+        max-width: 308px;
+        margin: auto;
+        align-items: start;
+        margin-bottom: 150px;
+    }
+
+
+
+    .format {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 573px;
+
+    }
+
+    .format h3 {
+        color: #1E4681;
+        font-size: 12px;
+        margin: 0;
+
+    }
+
+    .format p {
+        font-size: 11px;
+        line-height: 13px;
+        margin: 0;
+
+    }
+
+    .format div {
+        padding-bottom: 27px;
+        height: 216px;
+    }
+
+
+    .online {
+        width: 180px;
+        height: 32px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    .kabi {
+        width: 180px;
+        height: 41px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    .prepod {
+        width: 180px;
+        height: 33px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    .spiski {
+        width: 308px;
+        height: 195px;
+        padding-top: 28px;
+        margin: auto;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        color: #000000;
+
+    }
+
+
+    /*NIGAR*/
+    .programma {
+        max-width: 308px;
+        margin: auto;
+    }
+
+
+    .lessons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 48px;
+    }
+
+    .programma h2 {
+        max-width: 240px;
+        max-height: 32px;
+        margin: 0;
+        font-size: 26px;
+    }
+
+    .lessons div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: start;
+        max-width: 233px;
+        max-height: 192px;
+        margin: 0 10.5px 43px 10.5px;
+        border-radius: 17.38px;
+        box-shadow: 0.58px 0.58px 10px 0 #000000;
+    }
+
+
+    .lessons h4 {
+        font-size: 17px;
+        margin: 6px 0 15px 9px;
+    }
+
+    .lessons p {
+        font-size: 14px;
+        font-family: Roboto;
+        margin: 0 0 11px 9px;
+    }
+
+    h4.vosem {
+        margin: 8px 0 0 9px;
+    }
+
+    /*TEHRAN*/
+    .section {
+        min-width: 308px;
+        min-height: 237px;
+        margin-left: 35px;
+    }
+
+    .article2 {
+        background-color: #EFEFEF;
+        min-width: 376px;
+        min-height: 423px;
+    }
+
+    .card {
+        width: 308px;
+        height: 248px;
+        margin-left: 36px;
+        background-color: white;
+        box-shadow: 1px 1px 20px;
+        border-radius: 30px;
+    }
+
+    .article2 h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-left: 36px;
+        padding-top: 42px;
+        width: 257px;
+    }
+
+    .card p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        padding-top: 19px;
+        padding-left: 21px;
+        width: 263px;
+        height: 117px;
+    }
+
+    .img19 {
+        width: 80px;
+        height: 84px;
+        margin-left: 21px;
+    }
+
+    .img_fb {
+        width: 14.91px;
+        height: 17.2px;
+        margin-left: 14px;
+    }
+
+    .continue {
+        display: flex;
+    }
+
+    .article2 h4 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 101.38%;
+        margin-left: 14px;
+        margin-bottom: 18px;
+    }
+
+    .article3 {
+        font-family: Roboto Slab;
+        background-color: #9DC9C8;
+        height: 363.46px;
+        width: 100%;
+        padding-top: 65px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .article3 h2 {
+        margin-bottom: 0;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        width: 224px;
+        height: 63px;
+        margin-top: 0;
+    }
+
+    .stoimost {
+        width: 170px;
+        padding-top: 22px;
+        padding-left: 6px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    .cena {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 101.38%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .priziv {
+        margin-top: 0;
+        display: flex;
+    }
+
+    .priziv p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+        margin-bottom: 5px;
+        width: 138px;
+        margin-top: 0;
+    }
+
+    .priziv h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+        margin-top: 35px;
+        width: 137px;
+    }
+
+    .right {
+        margin-left: 31px;
+    }
+
+
+    /*FATIMA*/
+    .icons {
+        max-width: 98px;
+        max-height: 68px;
+
+        align-items: start;
+
+    }
+
+    .qav {
+        max-width: 308px;
+        max-height: 252px;
+        margin: auto;
+        padding-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #000000;
+        color: white;
+        padding-top: 21px;
+    }
+
+    .black {
+        max-width: 308px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 82px;
+    }
+
+    .sinxr {
+        width: 54px;
+        height: 38px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 7px;
+        width: 98px;
+        height: 23px;
+    }
+
+    .social img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .contacts div {
+        max-width: 150px;
+        max-height: 20px;
+    }
+
+    .contacts img {
+        width: 12px;
+        margin: 10px;
+    }
+
+    .contacts p,
+    .qav p {
+        margin: 2px;
+        font-size: 12px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+
+    }
+
+    .number,
+    .mail {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .number {
+        margin-top: 40px;
+
+    }
+
+
+
+}
