@@ -25,7 +25,7 @@ h2 {
     line-height: 56px;
     color: #000000;
 }
-
+ 
 h3 {
     font-family: 'Roboto';
     font-style: normal;
@@ -967,7 +967,7 @@ h4 {
     }
 
 
-}
+
 
 
 
@@ -1201,8 +1201,8 @@ h4 {
         background-color: #9DC9C8;
         height: 363.46px;
         width: 100%;
-        padding-left: 35px;
-        padding-top: 62px;
+        padding-left: 122px;
+        padding-top: 177px;
         font-size: 35px;
         font-weight: 700;
     }
@@ -1276,4 +1276,5 @@ h4 {
 
 
     /*FATIMA*/
+}
 }
