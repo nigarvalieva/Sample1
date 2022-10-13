@@ -419,7 +419,7 @@ img {
     /* Nigar*/
     .programma {
         max-width: 1308px;
-        margin-left: 66px;
+        margin-left: 40px;
     }
 
 
@@ -441,7 +441,7 @@ img {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: start;
-        max-width: 399px;
+        max-width: 380px;
         max-height: 350px;
         margin: 0 18.5px 43px 18.5px;
         border-radius: 30px;
@@ -1030,7 +1030,7 @@ img {
     }
 
     .info {
-        max-width: 770px;
+        width: auto;
         margin-left: 69px;
         align-items: start;
         margin-bottom: 119px;
@@ -1044,8 +1044,7 @@ img {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
-        max-width: 573px;
-
+        width: 80%;
     }
 
     .format h3 {
@@ -1111,7 +1110,7 @@ img {
     /*NIGAR*/
 
     .programma {
-        max-width: 770px;
+        width: auto;
         margin-left: 30px;
     }
 
@@ -1732,13 +1731,14 @@ img {
     /*FATIMA*/
 
     .info h2 {
+        width: auto;
         font-size: 26px;
         padding-bottom: 28px;
 
     }
 
     .info {
-        max-width: 308px;
+        width: auto;
         margin-left: 35px;
         align-items: start;
         margin-bottom: 150px;
@@ -1748,10 +1748,9 @@ img {
 
     .format {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        max-width: 573px;
-
+        width: auto;
     }
 
     .format h3 {
@@ -1770,7 +1769,7 @@ img {
 
     .format div {
         padding-bottom: 27px;
-        width: 180px;
+        width: auto;
     }
 
 
@@ -1808,7 +1807,7 @@ img {
     }
 
     .spiski {
-        width: 308px;
+        width: auto;
         height: 195px;
         margin: auto;
 
@@ -1828,7 +1827,7 @@ img {
 
     /*NIGAR*/
     .programma {
-        max-width: 308px;
+        width: auto;
         margin-left: 35px;
     }
 
@@ -1837,7 +1836,7 @@ img {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         margin-top: 48px;
     }
 
