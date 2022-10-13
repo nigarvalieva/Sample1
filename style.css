@@ -87,6 +87,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         height: 451px;
+        width: 623px;;
     }
 
     .shekil {
@@ -692,7 +693,7 @@ img {
 
 
 
-@media (min-width: 991px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
 
     main {
         width: 100%;
@@ -706,9 +707,7 @@ img {
     /*RASUL*/
 
     header {
-        margin-left: 69px;
-        width: 623px;
-
+        margin-left: 49px;
     }
 
     .intro {
@@ -722,7 +721,8 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         height: 247px;
-        width: 623px;
+        width: 500px;
+
     }
 
     .shekil {
@@ -879,7 +879,7 @@ img {
         width: 280px;
         height: 116px;
         margin: 39px 177px 0px 168px;
-    }
+    } 
 
     .product {
         font-family: 'Roboto Slab';
@@ -890,6 +890,7 @@ img {
         width: 250px;
         height: 65px;
         margin-bottom: 8px;
+        margin-top: 0;
     }
 
     .andruxa {
@@ -909,8 +910,8 @@ img {
         font-weight: 400;
         width: 691px;
         height: 471px;
-        margin-left: 69px;
         margin-top: 100px;
+        margin-left: 49px;
     }
 
     .artiapchi {
@@ -1202,7 +1203,7 @@ img {
         height: 97.88px;
         margin-left: 15px;
     }
-
+ 
     .article2 h4 {
         margin-left: 30px;
         font-family: 'Roboto Slab';
@@ -1401,8 +1402,7 @@ img {
 /****************MOBILE****************/
 
 
-
-@media (min-width: 319px) and (max-width: 991px) {
+@media (max-width: 990px) {
 
     main {
         width: 100%;
