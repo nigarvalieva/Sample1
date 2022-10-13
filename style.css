@@ -528,13 +528,13 @@ img {
     .section {
         width: 785px;
         height: 407px;
-        margin-left: 115px;
+        margin-left: 0px;
     }
 
     .article3 {
         font-family: Roboto Slab;
         background-color: #9DC9C8;
-        height: 780px;
+        height: 820px;
         width: 100%;
         font-size: 35px;
         font-weight: 700;
@@ -544,6 +544,7 @@ img {
         padding-top: 177px;
         margin-top: 0;
         margin-left: 122px;
+        margin-bottom: 0;
     }
 
     .stoimost {
@@ -848,7 +849,6 @@ img {
     .section {
         min-width: 460px;
         height: 239px;
-        margin-left: 71px;
     }
 
     .article2 {
@@ -860,7 +860,7 @@ img {
     .article2 h2 {
         font-family: Roboto Slab;
         font-weight: 700;
-        padding-left: 73px;
+        padding-left: 60px;
         padding-top: 52px;
     }
 
@@ -950,7 +950,7 @@ img {
         margin: auto;
         font-family: 'Roboto';
         font-style: normal;
-        height: 451.75px;
+        height: 346.75px;
         font-weight: 400;
         line-height: 25px;
         background-color: #9DC9C8;
@@ -960,7 +960,7 @@ img {
     }
 
     .article3 h2 {
-        margin-left: 71px;
+        margin-left: 60px;
     }
 
     .priziv {
