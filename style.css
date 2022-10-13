@@ -71,8 +71,9 @@ img {
 
 
     header {
-        margin-left: 118px;
-        width: 1142px;
+        margin-left: 100px;
+        margin-right: 100px;
+        width: auto;
     }
 
     .intro {
@@ -80,6 +81,7 @@ img {
         flex-direction: column;
         height: 497px;
         margin-bottom: 200px;
+        width: auto;
     }
 
     .qolova {
@@ -87,8 +89,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         height: 451px;
-        width: 623px;
-        ;
+        width: auto;
     }
 
     .shekil {
@@ -212,14 +213,14 @@ img {
         width: 484px;
         height: 200px;
         padding: 19px 13px 20px 20px;
-        margin-left: 408px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 400;
         font-size: 25px;
         background-color: #1E4681;
         color: white;
-        border-radius: 3px;
+        border-radius: 10px;
+        margin: auto;
     }
 
     .andruxa {
@@ -234,10 +235,11 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        width: 1175px;
+        width: auto;
         height: 794px;
         margin-left: 105px;
         margin-top: 177px;
+        margin-right: 105px;
     }
 
     .artiapchi {
@@ -248,7 +250,7 @@ img {
     }
 
     .okurse {
-        width: 248px;
+        width: auto;
         height: 61px;
         font-family: 'Roboto Slab';
         font-style: normal;
@@ -257,7 +259,7 @@ img {
     }
 
     .poroy {
-        width: 700px;
+        width: auto;
         height: 149px;
         font-family: 'Roboto';
         font-style: normal;
@@ -289,7 +291,7 @@ img {
     .time {
         display: flex;
         flex-direction: row;
-        width: 1002px;
+        width: auto;
         height: 219px;
         margin-left: 16px;
     }
@@ -419,7 +421,7 @@ img {
     /* Nigar*/
     .programma {
         max-width: 1308px;
-        margin-left: 66px;
+        margin-left: 40px;
     }
 
 
@@ -441,7 +443,7 @@ img {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: start;
-        max-width: 399px;
+        max-width: 380px;
         max-height: 350px;
         margin: 0 18.5px 43px 18.5px;
         border-radius: 30px;
@@ -474,17 +476,17 @@ img {
     .article2 {
         background-color: #EFEFEF;
         max-height: 780px;
-        width: 100%;
+        width: auto;
         padding-bottom: 111px;
     }
 
     .card {
-        max-width: 791px;
+        width: 60%;
         max-height: 451px;
         margin-left: 125px;
         padding-bottom: 30px;
         background-color: white;
-        box-shadow: 1px 1px 20px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
@@ -500,7 +502,7 @@ img {
         font-size: 20px;
         padding-top: 40px;
         padding-left: 45px;
-        width: 700px;
+        width: 90%;
         height: 203px;
         font-weight: 400;
         line-height: 150%;
@@ -528,7 +530,7 @@ img {
     }
 
     .section {
-        width: 785px;
+        width: auto;
         height: 407px;
         margin-left: 115px;
     }
@@ -537,7 +539,7 @@ img {
         font-family: Roboto Slab;
         background-color: #9DC9C8;
         height: 780px;
-        width: 100%;
+        width: auto;
         font-size: 35px;
         font-weight: 700;
     }
@@ -575,6 +577,8 @@ img {
     .priziv {
         margin-top: 0;
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         margin-top: 61px;
         margin-left: 122px;
     }
@@ -709,6 +713,8 @@ img {
 
     header {
         margin-left: 49px;
+        width: auto;
+        margin-right: 49px;
     }
 
     .intro {
@@ -722,7 +728,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         height: 247px;
-        width: 623px;
+        width: auto;
 
     }
 
@@ -866,17 +872,18 @@ img {
     }
 
     .ziritel {
-        width: 623px;
+        width: auto;
         height: 155px;
         margin: 0px;
         align-items: flex-end;
+        justify-content: center;
         display: flex;
     }
 
     .baxici {
         background-color: #1E4681;
         color: white;
-        border-radius: 3px;
+        border-radius: 10px;
         width: 280px;
         height: 116px;
         margin: 39px 177px 0px 168px;
@@ -909,10 +916,11 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        width: 691px;
+        width: auto;
         height: 471px;
         margin-top: 100px;
         margin-left: 49px;
+        margin-right: 49px;
     }
 
     .artiapchi {
@@ -920,10 +928,11 @@ img {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        width: auto;
     }
 
     .okurse {
-        width: 130px;
+        width: auto;
         height: 39px;
         font-family: 'Roboto Slab';
         font-style: normal;
@@ -933,8 +942,7 @@ img {
     }
 
     .poroy {
-        width: 700px;
-        width: 384px;
+        width: auto;
         height: 87px;
         font-family: 'Roboto';
         font-style: normal;
@@ -948,7 +956,7 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        width: 384px;
+        width: auto;
         height: 129px;
         line-height: 150%;
         margin-top: 0;
@@ -969,12 +977,13 @@ img {
     .time {
         display: flex;
         flex-direction: row;
-        width: 619px;
+        flex-wrap: wrap;
+        width: auto;
         height: 143px;
     }
 
     .zanyatiya {
-        width: 548px;
+        width: auto;
         height: 143px;
     }
 
@@ -1030,7 +1039,7 @@ img {
     }
 
     .info {
-        max-width: 770px;
+        width: auto;
         margin-left: 69px;
         align-items: start;
         margin-bottom: 119px;
@@ -1044,8 +1053,7 @@ img {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
-        max-width: 573px;
-
+        width: 80%;
     }
 
     .format h3 {
@@ -1111,7 +1119,7 @@ img {
     /*NIGAR*/
 
     .programma {
-        max-width: 770px;
+        width: auto;
         margin-left: 30px;
     }
 
@@ -1162,9 +1170,8 @@ img {
     /*TEHRAN*/
 
     .section {
-        min-width: 460px;
+        width: auto;
         height: 239px;
-        margin-left: 71px;
     }
 
     .article2 {
@@ -1185,7 +1192,7 @@ img {
         font-size: 12px;
         padding-top: 23px;
         padding-left: 28px;
-        width: 405px;
+        width: 90%;
         font-weight: 400;
         line-height: 18px;
     }
@@ -1195,7 +1202,7 @@ img {
         background-color: white;
         border-radius: 17.375px;
         box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-        width: 458.12px;
+        width: 40%;
         height: 261.2px;
     }
 
@@ -1282,9 +1289,11 @@ img {
     .priziv {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
-        margin-top: 0;
+        max-width: 540px;
         margin-left: 71px;
+        margin-top: 0;
     }
 
     .priziv h3 {
@@ -1310,7 +1319,6 @@ img {
 
     .right {
         width: 294px;
-        margin-left: 0px;
     }
 
 
@@ -1324,7 +1332,7 @@ img {
     }
 
     .qav {
-        max-width: 656px;
+        width: auto;
         max-height: 230px;
         margin: auto;
         padding-bottom: 24px;
@@ -1332,19 +1340,21 @@ img {
         flex-direction: column;
         justify-content: space-between;
         margin-left: 70px;
+        margin-right: 100px;
     }
 
     footer {
-        width: 100%;
+        width: auto;
         background-color: #000000;
         color: white;
         padding-top: 28px;
     }
 
     .black {
-        max-width: 656px;
+        width: auto;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 82px;
     }
@@ -1418,21 +1428,23 @@ img {
 
     header {
         margin-left: 35px;
+        margin-right: 35px;
+        width: auto;
     }
 
     .intro {
+        width: auto;
         display: flex;
-        flex-direction: column;
     }
 
     .qolova {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        flex-wrap: wrap;
         height: 320px;
-        width: 308px;
-
+        width: auto;
     }
 
     .shekil {
@@ -1562,9 +1574,7 @@ img {
 
     .murmur {
         display: flex;
-        position: relative;
-        left: 201px;
-        align-items: flex-end;
+        margin: auto;
     }
 
 
@@ -1580,7 +1590,7 @@ img {
     }
 
     .ziritel {
-        width: 308px;
+        width: auto;
         height: 207px;
         margin: 0;
         padding: 0;
@@ -1623,24 +1633,26 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        width: 691px;
-        height: 471px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
         margin-top: 0px;
         margin-left: 35px;
     }
 
     .artiapchi {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
-        width: 308px;
+        width: auto;
         height: 422px;
     }
 
 
     .okurse {
-        width: 106px;
+        width: auto;
         height: 32px;
         font-family: 'Roboto Slab';
         font-style: normal;
@@ -1650,8 +1662,7 @@ img {
     }
 
     .poroy {
-        width: 308px;
-        height: 70px;
+        width: 500px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -1664,29 +1675,31 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        width: 308px;
-        height: 131px;
+        width: auto;
         line-height: 150%;
         margin-top: 0;
         margin-bottom: 0;
     }
 
     .qaqash {
-        width: 171px;
-        height: 161px;
-        margin-top: 9px;
-        margin-left: 66px;
-        margin-right: 71px;
+        width: auto;
+    }
+
+    .artic p {
+        width: 50%;
+        margin: 0;
     }
 
     .time {
-        width: 307px;
-        height: 230px;
-
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .zanyatiya {
-        width: 215px;
+        width: auto;
         height: 129px;
         display: flex;
         flex-direction: row;
@@ -1695,19 +1708,19 @@ img {
     .minizan {
         display: flex;
         flex-direction: column;
-        width: 119px;
+        width: auto;
         height: 129px;
     }
 
     .hellohour {
-        width: 96px;
+        width: auto;
         height: 129px;
     }
 
     .lastlastlast {
         font-family: 'Roboto';
         font-style: normal;
-        width: 96px;
+        width: auto;
         height: 60px;
         margin: 0;
         padding: 0;
@@ -1716,7 +1729,7 @@ img {
     .mayumyau {
         font-family: 'Roboto';
         font-style: normal;
-        width: 96px;
+        width: auto;
         height: 60px;
         margin: 0;
         padding: 0;
@@ -1725,7 +1738,7 @@ img {
     .howudoin {
         font-family: 'Roboto';
         font-style: normal;
-        width: 96px;
+        width: auto;
         height: 60px;
         margin: 0;
         padding: 0;
@@ -1733,7 +1746,7 @@ img {
 
     .ischez {
         display: none;
-        width: 145px;
+        width: auto;
         height: 143px;
     }
 
@@ -1770,7 +1783,7 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        width: 96px;
+        width: auto;
         height: 43px;
         margin: 0;
         padding: 0;
@@ -1781,7 +1794,7 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        width: 96px;
+        width: auto;
         height: 43px;
         margin: 0;
         padding: 0;
@@ -1789,17 +1802,17 @@ img {
 
 
 
-
     /*FATIMA*/
 
     .info h2 {
+        width: auto;
         font-size: 26px;
         padding-bottom: 28px;
 
     }
 
     .info {
-        max-width: 308px;
+        width: auto;
         margin-left: 35px;
         align-items: start;
         margin-bottom: 150px;
@@ -1809,10 +1822,9 @@ img {
 
     .format {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        max-width: 573px;
-
+        width: auto;
     }
 
     .format h3 {
@@ -1831,7 +1843,7 @@ img {
 
     .format div {
         padding-bottom: 27px;
-        width: 180px;
+        width: auto;
     }
 
 
@@ -1869,7 +1881,7 @@ img {
     }
 
     .spiski {
-        width: 308px;
+        width: auto;
         height: 195px;
         margin: auto;
 
@@ -1889,7 +1901,7 @@ img {
 
     /*NIGAR*/
     .programma {
-        max-width: 308px;
+        width: auto;
         margin-left: 35px;
     }
 
@@ -1898,7 +1910,7 @@ img {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         margin-top: 48px;
     }
 
@@ -1939,7 +1951,7 @@ img {
 
     /*TEHRAN*/
     .section {
-        min-width: 308px;
+        width: auto;
         min-height: 237px;
         margin-left: 35px;
     }
@@ -1949,18 +1961,20 @@ img {
         flex-direction: column;
         justify-self: center;
         background-color: #EFEFEF;
-        min-width: 376px;
+        width: auto;
         min-height: 423px;
     }
 
     .card {
         justify-self: center;
-        width: 308px;
+        width: 80%;
         height: 248px;
         margin-left: 36px;
         background-color: white;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .article2 h2 {
@@ -1971,7 +1985,7 @@ img {
         line-height: 101.38%;
         padding-left: 36px;
         padding-top: 42px;
-        width: 257px;
+        width: auto;
     }
 
     .card p {
@@ -1981,7 +1995,7 @@ img {
         font-size: 10px;
         padding-top: 19px;
         padding-left: 21px;
-        width: 263px;
+        width: 90%;
         height: 117px;
     }
 
@@ -2102,27 +2116,29 @@ img {
     }
 
     .qav {
-        max-width: 308px;
+        width: auto;
         max-height: 252px;
         margin: auto;
         padding-bottom: 24px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-left: 50px;
+        margin-right: 34px;
     }
 
     footer {
-        width: 100%;
+        width: auto;
         background-color: #000000;
         color: white;
         padding-top: 21px;
     }
 
     .black {
-        max-width: 308px;
+        width: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 82px;
     }
