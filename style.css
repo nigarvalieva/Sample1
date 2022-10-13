@@ -530,7 +530,7 @@ img {
     }
 
     .section {
-        width: 785px;
+        width: auto;
         height: 407px;
         margin-left: 115px;
     }
@@ -539,7 +539,7 @@ img {
         font-family: Roboto Slab;
         background-color: #9DC9C8;
         height: 780px;
-        width: 100%;
+        width: auto;
         font-size: 35px;
         font-weight: 700;
     }
@@ -577,6 +577,8 @@ img {
     .priziv {
         margin-top: 0;
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         margin-top: 61px;
         margin-left: 122px;
     }
@@ -1168,9 +1170,8 @@ img {
     /*TEHRAN*/
 
     .section {
-        min-width: 460px;
+        width: auto;
         height: 239px;
-        margin-left: 71px;
     }
 
     .article2 {
@@ -1201,7 +1202,7 @@ img {
         background-color: white;
         border-radius: 17.375px;
         box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-        width: 60%;
+        width: 40%;
         height: 261.2px;
     }
 
@@ -1288,9 +1289,11 @@ img {
     .priziv {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
-        margin-top: 0;
+        max-width: 540px;
         margin-left: 71px;
+        margin-top: 0;
     }
 
     .priziv h3 {
@@ -1316,7 +1319,6 @@ img {
 
     .right {
         width: 294px;
-        margin-left: 0px;
     }
 
 
@@ -1330,7 +1332,7 @@ img {
     }
 
     .qav {
-        max-width: 656px;
+        width: auto;
         max-height: 230px;
         margin: auto;
         padding-bottom: 24px;
@@ -1338,19 +1340,21 @@ img {
         flex-direction: column;
         justify-content: space-between;
         margin-left: 70px;
+        margin-right: 100px;
     }
 
     footer {
-        width: 100%;
+        width: auto;
         background-color: #000000;
         color: white;
         padding-top: 28px;
     }
 
     .black {
-        max-width: 656px;
+        width: auto;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 82px;
     }
@@ -1902,12 +1906,14 @@ img {
 
     .card {
         justify-self: center;
-        width: 60%;
+        width: 80%;
         height: 248px;
         margin-left: 36px;
         background-color: white;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .article2 h2 {
@@ -2049,27 +2055,29 @@ img {
     }
 
     .qav {
-        max-width: 308px;
+        width: auto;
         max-height: 252px;
         margin: auto;
         padding-bottom: 24px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-left: 50px;
+        margin-right: 34px;
     }
 
     footer {
-        width: 100%;
+        width: auto;
         background-color: #000000;
         color: white;
         padding-top: 21px;
     }
 
     .black {
-        max-width: 308px;
+        width: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 82px;
     }
