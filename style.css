@@ -71,8 +71,9 @@ img {
 
 
     header {
-        margin-left: 118px;
-        width: 1142px;
+        margin-left: 100px;
+        margin-right: 100px;
+        width: auto;
     }
 
     .intro {
@@ -80,6 +81,7 @@ img {
         flex-direction: column;
         height: 497px;
         margin-bottom: 200px;
+        width: auto;
     }
 
     .qolova {
@@ -87,8 +89,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         height: 451px;
-        width: 623px;
-        ;
+        width: auto;
     }
 
     .shekil {
@@ -212,7 +213,6 @@ img {
         width: 484px;
         height: 200px;
         padding: 19px 13px 20px 20px;
-        margin-left: 408px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 400;
@@ -220,6 +220,7 @@ img {
         background-color: #1E4681;
         color: white;
         border-radius: 10px;
+        margin: auto;
     }
 
     .andruxa {
@@ -234,10 +235,11 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        width: 1175px;
+        width: auto;
         height: 794px;
         margin-left: 105px;
         margin-top: 177px;
+        margin-right: 105px;
     }
 
     .artiapchi {
@@ -248,7 +250,7 @@ img {
     }
 
     .okurse {
-        width: 248px;
+        width: auto;
         height: 61px;
         font-family: 'Roboto Slab';
         font-style: normal;
@@ -257,7 +259,7 @@ img {
     }
 
     .poroy {
-        width: 700px;
+        width: auto;
         height: 149px;
         font-family: 'Roboto';
         font-style: normal;
@@ -289,7 +291,7 @@ img {
     .time {
         display: flex;
         flex-direction: row;
-        width: 1002px;
+        width: auto;
         height: 219px;
         margin-left: 16px;
     }
@@ -474,17 +476,17 @@ img {
     .article2 {
         background-color: #EFEFEF;
         max-height: 780px;
-        width: 100%;
+        width: auto;
         padding-bottom: 111px;
     }
 
     .card {
-        max-width: 791px;
+        width: 60%;
         max-height: 451px;
         margin-left: 125px;
         padding-bottom: 30px;
         background-color: white;
-        box-shadow: 1px 1px 20px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
@@ -500,7 +502,7 @@ img {
         font-size: 20px;
         padding-top: 40px;
         padding-left: 45px;
-        width: 700px;
+        width: 90%;
         height: 203px;
         font-weight: 400;
         line-height: 150%;
@@ -709,6 +711,8 @@ img {
 
     header {
         margin-left: 49px;
+        width: auto;
+        margin-right: 49px;
     }
 
     .intro {
@@ -722,7 +726,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         height: 247px;
-        width: 623px;
+        width: auto;
 
     }
 
@@ -866,10 +870,11 @@ img {
     }
 
     .ziritel {
-        width: 623px;
+        width: auto;
         height: 155px;
         margin: 0px;
         align-items: flex-end;
+        justify-content: center;
         display: flex;
     }
 
@@ -909,10 +914,11 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        width: 691px;
+        width: auto;
         height: 471px;
         margin-top: 100px;
         margin-left: 49px;
+        margin-right: 49px;
     }
 
     .artiapchi {
@@ -920,10 +926,11 @@ img {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        width: auto;
     }
 
     .okurse {
-        width: 130px;
+        width: auto;
         height: 39px;
         font-family: 'Roboto Slab';
         font-style: normal;
@@ -933,8 +940,7 @@ img {
     }
 
     .poroy {
-        width: 700px;
-        width: 384px;
+        width: auto;
         height: 87px;
         font-family: 'Roboto';
         font-style: normal;
@@ -948,7 +954,7 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        width: 384px;
+        width: auto;
         height: 129px;
         line-height: 150%;
         margin-top: 0;
@@ -969,12 +975,13 @@ img {
     .time {
         display: flex;
         flex-direction: row;
-        width: 619px;
+        flex-wrap: wrap;
+        width: auto;
         height: 143px;
     }
 
     .zanyatiya {
-        width: 548px;
+        width: auto;
         height: 143px;
     }
 
@@ -1184,7 +1191,7 @@ img {
         font-size: 12px;
         padding-top: 23px;
         padding-left: 28px;
-        width: 405px;
+        width: 90%;
         font-weight: 400;
         line-height: 18px;
     }
@@ -1194,7 +1201,7 @@ img {
         background-color: white;
         border-radius: 17.375px;
         box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-        width: 458.12px;
+        width: 60%;
         height: 261.2px;
     }
 
@@ -1417,11 +1424,14 @@ img {
 
     header {
         margin-left: 35px;
+        margin-right: 35px;
+        width: auto;
     }
 
     .intro {
         display: flex;
         flex-direction: column;
+        width: auto;
     }
 
     .qolova {
@@ -1430,7 +1440,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         height: 359px;
-        width: 308px;
+        width:  auto;
 
     }
 
@@ -1574,8 +1584,6 @@ img {
         width: 623px;
         height: 155px;
         margin: 0px;
-        align-items: flex-end;
-        display: flex;
     }
 
     .baxici {
@@ -1614,10 +1622,11 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        width: 691px;
+        width: auto;
         height: 471px;
         margin-top: 100px;
         margin-left: 35px;
+        margin-right: 35px;
     }
 
     .artiapchi {
@@ -1638,7 +1647,7 @@ img {
     }
 
     .poroy {
-        width: 700px;
+        width: auto;
         width: 384px;
         height: 87px;
         font-family: 'Roboto';
@@ -1653,7 +1662,7 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        width: 384px;
+        width: auto;
         height: 129px;
         line-height: 150%;
         margin-top: 0;
@@ -1877,7 +1886,7 @@ img {
 
     /*TEHRAN*/
     .section {
-        min-width: 308px;
+        width: auto;
         min-height: 237px;
         margin-left: 35px;
     }
@@ -1887,13 +1896,13 @@ img {
         flex-direction: column;
         justify-self: center;
         background-color: #EFEFEF;
-        min-width: 376px;
+        width: auto;
         min-height: 423px;
     }
 
     .card {
         justify-self: center;
-        width: 308px;
+        width: 60%;
         height: 248px;
         margin-left: 36px;
         background-color: white;
@@ -1909,7 +1918,7 @@ img {
         line-height: 101.38%;
         padding-left: 36px;
         padding-top: 42px;
-        width: 257px;
+        width: auto;
     }
 
     .card p {
@@ -1919,7 +1928,7 @@ img {
         font-size: 10px;
         padding-top: 19px;
         padding-left: 21px;
-        width: 263px;
+        width: 90%;
         height: 117px;
     }
 
