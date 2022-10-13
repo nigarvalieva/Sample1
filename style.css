@@ -219,7 +219,7 @@ img {
         font-size: 25px;
         background-color: #1E4681;
         color: white;
-        border-radius: 10px;
+        border-radius: 3px;
     }
 
     .andruxa {
@@ -876,7 +876,7 @@ img {
     .baxici {
         background-color: #1E4681;
         color: white;
-        border-radius: 10px;
+        border-radius: 3px;
         width: 280px;
         height: 116px;
         margin: 39px 177px 0px 168px;
@@ -1430,7 +1430,7 @@ img {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        height: 359px;
+        height: 320px;
         width: 308px;
 
     }
@@ -1450,8 +1450,8 @@ img {
         font-size: 20px;
         display: flex;
         flex-direction: row;
-        width: 334px;
-        height: 27px;
+        width: 234px;
+        height: 17px;
     }
 
     .ppp {
@@ -1544,20 +1544,27 @@ img {
     }
 
     .how {
-        height: 110px;
-        width: 334px;
+        height: 84px;
+        width: 265px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
         font-size: 37px;
-        margin-bottom: 19px;
+        margin-bottom: 17px;
         margin-top: 0;
     }
 
 
     .dude {
-        width: 178px;
-        height: 219px;
+        width: 142px;
+        height: 175px;
+    }
+
+    .murmur {
+        display: flex;
+        position: relative;
+        left: 201px;
+        align-items: flex-end;
     }
 
 
@@ -1566,37 +1573,37 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        width: 334px;
-        height: 55px;
+        width: 265px;
+        height: 29px;
         margin-bottom: 0;
+        margin-top: 0;
     }
 
     .ziritel {
-        width: 623px;
-        height: 155px;
-        margin: 0px;
-        align-items: flex-end;
-        display: flex;
+        width: 308px;
+        height: 207px;
+        margin: 0;
+        padding: 0;
     }
 
     .baxici {
         background-color: #1E4681;
         color: white;
-        border-radius: 10px;
-        width: 280px;
-        height: 116px;
-        margin: 39px 177px 0px 168px;
+        border-radius: 3px;
+        width: 226px;
+        height: 94px;
+        margin: 39px 80px 75px 3px;
     }
 
     .product {
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        padding: 11px 15px 0px 15px;
-        width: 250px;
-        height: 65px;
-        margin-bottom: 8px;
+        font-size: 12.1px;
+        padding: 8px 6px 0px 9px;
+        width: 210px;
+        height: 60px;
+        margin-bottom: 0px;
         margin-top: 0;
     }
 
@@ -1604,9 +1611,10 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 10.5px;
         text-align: right;
         margin-right: 10px;
+        margin-top: 0;
     }
 
     /* /////////////////////////////////////// */
@@ -1617,35 +1625,37 @@ img {
         font-weight: 400;
         width: 691px;
         height: 471px;
-        margin-top: 100px;
+        margin-top: 0px;
         margin-left: 35px;
     }
 
     .artiapchi {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        width: 308px;
+        height: 422px;
     }
 
+
     .okurse {
-        width: 130px;
-        height: 39px;
+        width: 106px;
+        height: 32px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 26px;
         margin: 0;
     }
 
     .poroy {
-        width: 700px;
-        width: 384px;
-        height: 87px;
+        width: 308px;
+        height: 70px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 0;
     }
 
@@ -1653,75 +1663,126 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        width: 384px;
-        height: 129px;
+        font-size: 12px;
+        width: 308px;
+        height: 131px;
         line-height: 150%;
         margin-top: 0;
-        margin-bottom: 28px;
-    }
-
-    .article1 {
-        display: flex;
-        flex-direction: row;
+        margin-bottom: 0;
     }
 
     .qaqash {
-        width: 212px;
-        height: 236px;
-        margin-top: 35px;
+        width: 171px;
+        height: 161px;
+        margin-top: 9px;
+        margin-left: 66px;
+        margin-right: 71px;
     }
 
     .time {
-        display: flex;
-        flex-direction: row;
-        width: 619px;
-        height: 143px;
+        width: 307px;
+        height: 230px;
+
     }
 
     .zanyatiya {
-        width: 548px;
-        height: 143px;
+        width: 215px;
+        height: 129px;
+        display: flex;
+        flex-direction: row;
     }
 
     .minizan {
         display: flex;
-        flex-direction: row;
-        font-family: 'Roboto';
-        font-style: normal;
-        justify-content: space-between;
-        width: 363px;
-        height: 58px;
-        margin: 48px 118px 37px 67px;
+        flex-direction: column;
+        width: 119px;
+        height: 129px;
     }
 
-    .ischez {
-        width: 145px;
-        height: 143px;
-    }
-
-    .opti,
-    .chas,
-    .weeek {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 15px;
+    .hellohour {
         width: 96px;
-        height: 23px;
+        height: 129px;
+    }
+
+    .lastlastlast {
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 96px;
+        height: 60px;
         margin: 0;
         padding: 0;
     }
 
-    .pogrujeni,
-    .dlinniy,
+    .mayumyau {
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 96px;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .howudoin {
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 96px;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ischez {
+        display: none;
+        width: 145px;
+        height: 143px;
+    }
+
+    .opti {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .chas {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .weeek {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .pogrujeni {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .dlinniy {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        width: 96px;
+        height: 43px;
+        margin: 0;
+        padding: 0;
+    }
+
     .dlitelniy {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 10px;
         width: 96px;
-        height: 35px;
+        height: 43px;
         margin: 0;
         padding: 0;
     }
