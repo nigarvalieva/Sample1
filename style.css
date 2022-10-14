@@ -278,35 +278,25 @@ img {
     .format h3 {
         color: #1E4681;
     }
-    .online {
+    .format p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+        font-family: 'Roboto';
+        font-style: normal;
+    }
+    .text1 {
         width: 223px;
         height: 39px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 23px;
-        color: #000000;
     }
-    .kabi {
+    .text2 {
         width: 271px;
         height: 109px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 23px;
-        color: #000000;
     }
-    .prepod {
+    .text3 {
         width: 245px;
         height: 39px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 23px;
-        color: #000000;
     }
     .spiski {
         width: 662px;
@@ -478,7 +468,7 @@ img {
         max-height: 133px;
         align-items: start;
     }
-    .qav {
+    .ending {
         max-width: 1147px;
         max-height: 390px;
         margin: auto;
@@ -500,7 +490,7 @@ img {
         justify-content: space-between;
         margin-bottom: 135px;
     }
-    .sinxr {
+    .synchronization {
         width: 115px;
         height: 68px;
     }
@@ -709,7 +699,6 @@ img {
     }
     /* /////////////////////////////////////// */
     .about {
-
         font-weight: 400;
         width: auto;
         height: 471px;
@@ -809,10 +798,8 @@ img {
     }
     .info {
         width: auto;
-        margin-left: 69px;
         align-items: start;
-        margin-bottom: 119px;
-        margin-top: 82px;
+        margin: 82px o 119px 69px;
     }
     .format {
         display: flex;
@@ -826,37 +813,24 @@ img {
         font-size: 15px;
     }
     .format p {
-        font-size: 11px;
-        line-height: 14px;
-
+        font-size: 11px;    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
     }
-    .online {
+    .text1 {
         width: 153px;
         height: 22px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        color: #000000;
     }
-    .kabi {
+    .text2 {
         width: 172px;
         height: 63px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 23px;
-        color: #000000;
     }
-    .prepod {
+    .text3 {
         width: 141.9px;
         height: 22.59px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 23px;
-        color: #000000;
     }
-    .spiski {
+    .list {
         width: 394x;
         height: 236px;
         margin-top: 28px;
@@ -865,7 +839,6 @@ img {
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
-        color: #000000;
     }
     /*NIGAR*/
     .programma {
@@ -1034,7 +1007,7 @@ img {
         max-height: 76px;
         align-items: start;
     }
-    .qav {
+    .ending {
         width: auto;
         max-height: 230px;
         margin: auto;
@@ -1042,8 +1015,7 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-left: 70px;
-        margin-right: 100px;
+        margin: 0 100px 0 70px;
     }
     footer {
         width: auto;
@@ -1059,7 +1031,7 @@ img {
         justify-content: space-between;
         margin-bottom: 82px;
     }
-    .sinxr {
+    .synchronization {
         width: 66.6px;
         height: 39.38px;
     }
@@ -1086,8 +1058,7 @@ img {
     .contacts p {
         margin: 10
     }
-    .number,
-    .mail {
+    .number,.mail {
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1391,14 +1362,11 @@ img {
         width: auto;
         font-size: 26px;
         padding-bottom: 28px;
-
     }
     .info {
         width: auto;
-        margin-left: 35px;
         align-items: start;
-        margin-bottom: 150px;
-        margin-top: 150px;
+        margin: 150px 0 150px 35px;
     }
     .format {
         display: flex;
@@ -1410,56 +1378,39 @@ img {
         color: #1E4681;
         font-size: 12px;
         margin: 0;
-
     }
     .format p {
         font-size: 11px;
         line-height: 13px;
         margin: 0;
-
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
     }
     .format div {
         padding-bottom: 27px;
         width: auto;
     }
-    .online {
+    .text1 {
         width: 180px;
         height: 32px;
-
-
-        font-weight: 400;
-        line-height: 13px;
-        color: #000000;
     }
-    .kabi {
+    .text2 {
         width: 180px;
         height: 41px;
-
-
-        font-weight: 400;
-        line-height: 13px;
-        color: #000000;
     }
-    .prepod {
+    .text3 {
         width: 180px;
         height: 33px;
-
-
-        font-weight: 400;
-        line-height: 13px;
-        color: #000000;
     }
     .spiski {
         width: 90%;
         height: 195px;
         margin: auto;
-
-
         font-weight: 400;
         font-size: 12px;
         line-height: 21px;
         color: #000000;
-
     }
     ul {
         padding-left: 20px;
@@ -1544,7 +1495,6 @@ img {
         width: auto;
     }
     .card p {
-
         font-weight: 400;
         font-size: 12px;
         padding-top: 19px;
@@ -1646,7 +1596,7 @@ img {
         margin: 0 150px 10px 0;
         align-items: start;
     }
-    .qav { 
+    .ending { 
         width: auto;
         max-height: 252px;
         margin: auto;
@@ -1654,8 +1604,7 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 35px;
-        margin-right: 34px;
+        margin: 0 34px 0 35px;
     }
     footer {
         width: auto;
@@ -1671,7 +1620,7 @@ img {
         justify-content: space-between;
         margin-bottom: 82px;
     }
-    .sinxr {
+    .synchronization {
         width: 53.59px;
         height: 31.69px;
     }
@@ -1691,7 +1640,6 @@ img {
         max-width: 150px;
         max-height: 20px;
         margin-left: -10px;
-
     }
     .contacts img {
         width: 12px;
@@ -1700,7 +1648,6 @@ img {
     .contacts p, .qav p {
         margin: 2px;
         font-size: 12px;
-
         font-weight: 400;
     }
     .number, .mail {
