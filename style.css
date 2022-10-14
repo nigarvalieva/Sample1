@@ -1940,14 +1940,14 @@ img {
 
     .card {
         justify-self: center;
-        width: 60%;
+        width: 69%;
         height: auto;
         margin-left: 36px;
         background-color: white;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
         padding-left: 5px;
-        padding-right: 5px;
+        padding-right: 25px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -1972,6 +1972,7 @@ img {
         font-size: 12px;
         padding-top: 19px;
         padding-left: 21px;
+        padding-right: 21px;
         width: 90%;
         height: auto;
     }
@@ -2085,7 +2086,8 @@ img {
     .icons {
         max-width: 98px;
         max-height: 68px;
-
+        margin-bottom: 10px;
+        margin-right: 150px;
         align-items: start;
 
     }
@@ -2141,6 +2143,7 @@ img {
         max-width: 150px;
         max-height: 20px;
         margin-left: -10px;
+
     }
 
     .contacts img {
@@ -2165,12 +2168,4 @@ img {
         flex-direction: row;
 
     }
-
-    .number {
-        margin-top: 40px;
-
-    }
-
-
-
 }
