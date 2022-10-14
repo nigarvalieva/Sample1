@@ -1428,13 +1428,13 @@ img {
 
     header {
         margin-left: 35px;
-        margin-right: 35px;
         width: auto;
+        margin-right: 35px;
     }
 
     .intro {
-        width: auto;
         display: flex;
+        flex-direction: column;
     }
 
     .qolova {
@@ -1443,18 +1443,22 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
-        height: 320px;
+        height: 247px;
         width: auto;
+
     }
 
     .shekil {
-        width: 52px;
-        height: 31px;
+        width: 66px;
+        height: 38px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+
     }
 
     .pifpaf {
-        width: 309px;
-        height: 145px;
+        width: 334px;
+        height: 183px;
     }
 
     .panel {
@@ -1462,8 +1466,8 @@ img {
         font-size: 20px;
         display: flex;
         flex-direction: row;
-        width: 234px;
-        height: 17px;
+        width: 334px;
+        height: 27px;
     }
 
     .ppp {
@@ -1475,8 +1479,8 @@ img {
     }
 
     .delimyau {
-        width: 10px;
-        height: 10px;
+        width: 13px;
+        height: 13px;
         margin: 0 5px 0 0;
         padding: 0;
     }
@@ -1485,7 +1489,7 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 12px;
         width: 163px;
         height: 27px;
         margin: 0;
@@ -1507,7 +1511,7 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 12px;
         width: 126px;
         height: 27px;
         margin: 0;
@@ -1515,8 +1519,8 @@ img {
     }
 
     .panelmiau {
-        width: 10px;
-        height: 10px;
+        width: 13px;
+        height: 13px;
         margin: 0 5px 0 0;
         padding: 0;
     }
@@ -1531,8 +1535,8 @@ img {
     }
 
     .panelmeow {
-        width: 10px;
-        height: 10px;
+        width: 13px;
+        height: 13px;
         margin: 0 5px 0 0;
         padding: 0;
     }
@@ -1541,40 +1545,51 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 12px;
         width: 150px;
         height: 27px;
         margin: 0 0 0 0;
         padding: 0;
     }
 
+    .artic {
+        width: auto;
+    }
+
+    .dora{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .introduction {
         font-family: 'Roboto Slab';
         font-style: normal;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
         margin: 0;
         padding: 0;
     }
 
     .how {
-        height: 84px;
-        width: 265px;
+        height: 110px;
+        width: 334px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
-        font-size: 37px;
-        margin-bottom: 17px;
+        font-size: 46px;
+        margin-bottom: 19px;
         margin-top: 0;
     }
 
-
-    .dude {
-        width: 142px;
-        height: 175px;
+    .ischez{
+        display: none;
     }
 
-    .murmur {
-        display: flex;
-        margin: auto;
+    .dude {
+        width: 178px;
+        height: 219px;
     }
 
 
@@ -1582,38 +1597,39 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        width: 265px;
-        height: 29px;
+        font-size: 12px;
+        width: 334px;
+        height: 55px;
         margin-bottom: 0;
-        margin-top: 0;
     }
 
     .ziritel {
         width: auto;
-        height: 207px;
-        margin: 0;
-        padding: 0;
+        height: 155px;
+        margin: 0px;
+        align-items: flex-end;
+        justify-content: center;
+        display: flex;
     }
 
     .baxici {
         background-color: #1E4681;
         color: white;
-        border-radius: 3px;
-        width: 226px;
-        height: 94px;
-        margin: 39px 80px 75px 3px;
+        border-radius: 10px;
+        width: 280px;
+        height: 116px;
+        margin: 39px 177px 0px 168px;
     }
 
     .product {
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 400;
-        font-size: 12.1px;
-        padding: 8px 6px 0px 9px;
-        width: 210px;
-        height: 60px;
-        margin-bottom: 0px;
+        font-size: 14px;
+        padding: 11px 15px 0px 15px;
+        width: 250px;
+        height: 65px;
+        margin-bottom: 8px;
         margin-top: 0;
     }
 
@@ -1621,10 +1637,9 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 10.5px;
+        font-size: 12px;
         text-align: right;
         margin-right: 10px;
-        margin-top: 0;
     }
 
     /* /////////////////////////////////////// */
@@ -1634,39 +1649,38 @@ img {
         font-style: normal;
         font-weight: 400;
         width: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 0px;
-        margin-left: 35px;
+        height: 619px;
+        margin-top: 100px;
+        margin-left: 49px;
+        margin-right: 49px;
     }
 
     .artiapchi {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        flex-wrap: wrap;
         align-items: flex-start;
         width: auto;
+        flex-wrap: wrap;
     }
-
 
     .okurse {
         width: auto;
-        height: 32px;
+        height: 39px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
-        font-size: 26px;
+        font-size: 32px;
         margin: 0;
     }
 
     .poroy {
-        width: 500px;
+        width: auto;
+        height: 87px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 0;
     }
 
@@ -1674,144 +1688,72 @@ img {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         width: auto;
+        height: 129px;
         line-height: 150%;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+
+    .article1 {
+        display: flex;
+        flex-direction: row;
     }
 
     .qaqash {
-        width: auto;
-        margin: 0;
-    }
-
-    .artic p {
-        width: auto;
-    }
-
-    .artic {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .dora {
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        width: 212px;
+        height: 236px;
+        margin-top: 35px;
     }
 
     .time {
-        width: auto;
         display: flex;
-        justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    .zanyatiya {
-        width: auto;
-        height: 129px;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .minizan {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        height: 129px;
-    }
-
-    .hellohour {
-        width: auto;
-        height: 129px;
-    }
-
-    .lastlastlast {
-        font-family: 'Roboto';
-        font-style: normal;
-        width: auto;
-        height: 60px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .mayumyau {
-        font-family: 'Roboto';
-        font-style: normal;
-        width: auto;
-        height: 60px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .howudoin {
-        font-family: 'Roboto';
-        font-style: normal;
-        width: auto;
-        height: 60px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .ischez {
-        display: none;
         width: auto;
         height: 143px;
     }
 
-    .opti {
+   
+    .minizan {
+        display: flex;
+        flex-direction: row;
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: auto;
     }
 
-    .chas {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
+    .zanyatiya {
+        display: flex;
+        justify-content: flex-start;
     }
 
+
+    .opti,
+    .chas,
     .weeek {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 12px;
-    }
-
-    .pogrujeni {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-    }
-
-    .dlinniy {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        width: auto;
-        height: 43px;
+        font-size: 15px;
+        width: 96px;
+        height: 23px;
         margin: 0;
         padding: 0;
     }
 
+    .pogrujeni,
+    .dlinniy,
     .dlitelniy {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        width: auto;
-        height: 43px;
+        font-size: 11px;
+        width: 96px;
+        height: 35px;
         margin: 0;
         padding: 0;
     }
