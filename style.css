@@ -32,7 +32,6 @@ img {
         font-family: Roboto Slab;
         font-size: 55px;
         font-weight: bold;
-        font-style: normal;
         font-weight: 700;
         line-height: 56px;
         color: #000000;
@@ -140,7 +139,6 @@ img {
     }
     .how {
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 80px;
         line-height: 101.38%;
@@ -150,8 +148,7 @@ img {
         height: 451px;
     }
     .eight {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 20px;
     }
@@ -160,7 +157,6 @@ img {
         height: 200px;
         padding: 19px 13px 20px 20px;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 400;
         font-size: 25px;
         background-color: #1E4681;
@@ -169,15 +165,13 @@ img {
         margin: auto;
     }
     .andruxa {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 20px;
         text-align: right;
     }
     .about {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         width: auto;
         height: 794px;
@@ -195,22 +189,19 @@ img {
         width: auto;
         height: 61px;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 55px;
     }
     .poroy {
         width: auto;
         height: 149px;
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 24px;
         line-height: 150%;
     }
     .uchimsa {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 24px;
         width: 700px;
@@ -240,8 +231,7 @@ img {
     .minizan {
         display: flex;
         flex-direction: row;
-        font-family: 'Roboto';
-        font-style: normal;
+
         justify-content: space-between;
         margin: 70px 0 53px 0;
     }
@@ -417,8 +407,7 @@ img {
         display: flex;
     }
     .article2 h4 {
-        margin-left: 30px;
-        margin-bottom: 21px;
+        margin: 0 0 21px 30px;
     }
     .section {
         width: auto;
@@ -438,29 +427,25 @@ img {
         margin-top: 0;
         margin-left: 122px;
     }
-    .stoimost {
+    .price_text {
         width: 170px;
         height: 32px;
         padding-top: 54px;
         padding-left: 6px;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 25px;
         line-height: 101.38%;
         margin-bottom: 0;
         margin-top: 0;
     }
-    .cena {
-        font-family: 'Roboto';
-        font-style: normal;
+    .price_num {
         font-weight: 400;
         font-size: 80px;
         line-height: 101.38%;
         margin-top: 0;
         margin-bottom: 0;
     }
-    .priziv {
+    .blocks {
         margin-top: 0;
         display: flex;
         flex-direction: row;
@@ -468,9 +453,7 @@ img {
         margin-top: 61px;
         margin-left: 122px;
     }
-    .priziv p {
-        font-family: 'Roboto';
-        font-style: normal;
+    .blocks p {
         font-weight: 400;
         font-size: 18px;
         line-height: 101.38%;
@@ -480,9 +463,7 @@ img {
     .price {
         margin-left: 122px;
     }
-    .priziv h3 {
-        font-family: 'Roboto';
-        font-style: normal;
+    .blocks h3 {
         font-weight: 400;
         font-size: 25px;
         line-height: 101.38%;
@@ -592,7 +573,7 @@ img {
         height: 183px;
     }
     .panel {
-        font-family: 'Roboto';
+
         font-size: 20px;
         display: flex;
         flex-direction: row;
@@ -613,8 +594,7 @@ img {
         padding: 0;
     }
     .panelwow {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 163px;
@@ -631,8 +611,7 @@ img {
         height: 27px;
     }
     .miau18 {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 126px;
@@ -661,8 +640,7 @@ img {
         padding: 0;
     }
     .daredevil {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 150px;
@@ -672,7 +650,6 @@ img {
     }
     .introduction {
         font-family: 'Roboto Slab';
-        font-style: normal;
         margin: 0;
         padding: 0;
     }
@@ -680,7 +657,6 @@ img {
         height: 110px;
         width: 334px;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 46px;
         margin-bottom: 19px;
@@ -691,8 +667,7 @@ img {
         height: 219px;
     }
     .eight {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 334px;
@@ -717,7 +692,6 @@ img {
     }
     .product {
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         padding: 11px 15px 0px 15px;
@@ -727,8 +701,7 @@ img {
         margin-top: 0;
     }
     .andruxa {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         text-align: right;
@@ -736,8 +709,7 @@ img {
     }
     /* /////////////////////////////////////// */
     .about {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         width: auto;
         height: 471px;
@@ -756,7 +728,6 @@ img {
         width: auto;
         height: 39px;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 32px;
         margin: 0;
@@ -764,15 +735,13 @@ img {
     .poroy {
         width: auto;
         height: 87px;
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 14px;
         margin-bottom: 0;
     }
     .uchimsa {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 14px;
         width: auto;
@@ -804,8 +773,7 @@ img {
     .minizan {
         display: flex;
         flex-direction: row;
-        font-family: 'Roboto';
-        font-style: normal;
+
         justify-content: space-between;
         width: 363px;
         height: 58px;
@@ -980,7 +948,6 @@ img {
     .article2 h4 {
         margin-left: 30px;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 17px;
         line-height: 101.38%;
@@ -990,7 +957,6 @@ img {
     }
     .continue h4 {
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 17px;
         line-height: 101.38%;
@@ -1007,21 +973,17 @@ img {
         margin-bottom: 0;
         margin-left: 71px;
     }
-    .cena {
-        font-family: 'Roboto';
-        font-style: normal;
+    .price_num {
         font-weight: 400;
         font-size: 46px;
         line-height: 101.38%;
         margin-top: 0;
         margin-bottom: 46px;
     }
-    .stoimost {
+    .price_text {
         width: 170px;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 101.38%;
         margin-top: 31px;
         margin-bottom: 0px;
@@ -1029,20 +991,17 @@ img {
     }
     .article3 {
         margin: auto;
-        font-family: 'Roboto';
-        font-style: normal;
         height: 451.75px;
         font-weight: 400;
         line-height: 25px;
         background-color: #9DC9C8;
         padding-top: 77px;
         width: 100%;
-
     }
     .article3 h2 {
         margin-left: 71px;
     }
-    .priziv {
+    .blocks {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1051,19 +1010,16 @@ img {
         margin-left: 71px;
         margin-top: 0;
     }
-    .priziv h3 {
-        font-family: 'Roboto';
-        font-style: normal;
+    .blocks h3 {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 101.38%;
         margin-bottom: 0;
         margin-top: 0;
     }
-    .priziv p {
-        font-size: 10px;
+    .blocks p {
+        font-size: 16px;
         width: 170px;
-        line-height: 10.14px;
         margin-top: 5px;
     }
     .left {
@@ -1182,7 +1138,7 @@ img {
         height: 183px;
     }
     .panel {
-        font-family: 'Roboto';
+
         font-size: 20px;
         display: flex;
         flex-direction: row;
@@ -1203,8 +1159,7 @@ img {
         padding: 0;
     }
     .panelwow {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 163px;
@@ -1221,8 +1176,7 @@ img {
         height: 27px;
     }
     .miau18 {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 126px;
@@ -1251,8 +1205,7 @@ img {
         padding: 0;
     }
     .daredevil {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 150px;
@@ -1269,7 +1222,6 @@ img {
     }
     .introduction {
         font-family: 'Roboto Slab';
-        font-style: normal;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1281,7 +1233,6 @@ img {
         height: 110px;
         width: 334px;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 46px;
         margin-bottom: 19px;
@@ -1295,8 +1246,7 @@ img {
         margin-top: 20px;
     }
     .eight {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         width: 334px;
@@ -1321,7 +1271,6 @@ img {
     }
     .product {
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         padding: 11px 15px 0px 15px;
@@ -1331,8 +1280,7 @@ img {
         margin-top: 0;
     }
     .andruxa {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         text-align: right;
@@ -1344,8 +1292,7 @@ img {
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         width: auto;
         height: 740px;
@@ -1365,7 +1312,6 @@ img {
         width: auto;
         height: 39px;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 32px;
         margin: 0;
@@ -1373,15 +1319,13 @@ img {
     .poroy {
         width: auto;
         height: 87px;
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 14px;
         margin-bottom: 0;
     }
     .uchimsa {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 14px;
         width: auto;
@@ -1416,8 +1360,7 @@ img {
         height: 221px;
         display: flex;
         flex-direction: row;
-        font-family: 'Roboto';
-        font-style: normal;
+
         justify-content: space-between;
         flex-wrap: wrap;
         width: auto;
@@ -1483,8 +1426,7 @@ img {
         width: 180px;
         height: 32px;
 
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         line-height: 13px;
         color: #000000;
@@ -1493,8 +1435,7 @@ img {
         width: 180px;
         height: 41px;
 
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         line-height: 13px;
         color: #000000;
@@ -1503,8 +1444,7 @@ img {
         width: 180px;
         height: 33px;
 
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         line-height: 13px;
         color: #000000;
@@ -1514,8 +1454,7 @@ img {
         height: 195px;
         margin: auto;
 
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         line-height: 21px;
@@ -1597,7 +1536,6 @@ img {
     }
     .article2 h2 {
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 101.38%;
@@ -1606,8 +1544,7 @@ img {
         width: auto;
     }
     .card p {
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         padding-top: 19px;
@@ -1632,7 +1569,6 @@ img {
     }
     .article2 h4 {
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 101.38%;
@@ -1652,24 +1588,22 @@ img {
     .article3 h2 {
         margin-bottom: 0;
         font-family: 'Roboto Slab';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 101.38%;
         width: 224px;
         height: 63px;
         margin-top: 0;
-        margin-left: 35px;
+        margin-left: 0;
     }
     .price {
-        margin-left: 35px;
+        margin-left: 0px;
     }
-    .stoimost {
+    .price_text {
         width: 170px;
         padding-top: 22px;
         padding-left: 6px;
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
         font-size: 12px;
         margin-bottom: 0;
@@ -1677,32 +1611,29 @@ img {
         padding-left: 0;
         padding-bottom: 0;
     }
-    .cena {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+    .price_num {
+         font-weight: 400;
         font-size: 37px;
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 0;
     }
-    .priziv {
+    .blocks {
         margin-top: 0;
         display: flex;
-        margin-left: 35px;
+        margin-left: 0px;
         justify-content: space-between;
     }
-    .priziv p {
-        font-family: 'Roboto';
-        font-style: normal;
+    .blocks p {
+
         font-weight: 400;
-        font-size: 10px;
+        font-size: 12px;
         margin-bottom: 5px;
         width: 138px;
         margin-top: 0;
     }
-    .priziv h3 {
-        font-family: 'Roboto';
-        font-style: normal;
+    .blocks h3 {
+
         font-weight: 400;
         font-size: 12px;
         margin-top: 35px;
@@ -1723,7 +1654,8 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin: 0 50px 0 34px;
+        margin-left: 35px;
+        margin-right: 34px;
     }
     footer {
         width: auto;
@@ -1768,8 +1700,7 @@ img {
     .contacts p, .qav p {
         margin: 2px;
         font-size: 12px;
-        font-family: 'Roboto';
-        font-style: normal;
+
         font-weight: 400;
     }
     .number, .mail {
@@ -1777,4 +1708,4 @@ img {
         align-items: center;
         flex-direction: row;
     }
-}
+}   
