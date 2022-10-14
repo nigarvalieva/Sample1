@@ -1940,14 +1940,17 @@ img {
 
     .card {
         justify-self: center;
-        width: 80%;
-        height: 248px;
+        justify-content: space-between;
+        
+        width: 60%;
         margin-left: 36px;
         background-color: white;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
         padding-left: 5px;
         padding-right: 5px;
+        display: flex;
+        flex-direction: column;
     }
 
     .article2 h2 {
@@ -1974,7 +1977,7 @@ img {
 
     .img19 {
         width: 80px;
-        height: 84px;
+        height: 70px;
         margin-left: 21px;
     }
 
@@ -2053,6 +2056,7 @@ img {
         margin-top: 0;
         display: flex;
         margin-left: 35px;
+        justify-content: space-between;
     }
 
     .priziv p {
@@ -2072,10 +2076,6 @@ img {
         font-size: 12px;
         margin-top: 35px;
         width: 137px;
-    }
-
-    .right {
-        margin-left: 31px;
     }
 
 
