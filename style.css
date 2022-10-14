@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/****************DESKTOP****************/
+
 body {
     font-family: Roboto, Roboto Slab;
     width: 100%;
@@ -18,7 +21,7 @@ p, h3, h4 {
 img {
     width: 100%;
 }
-/****************DESKTOP****************/
+
 @media (min-width: 1280px) {
     main {
         width: 100%;
@@ -523,41 +526,8 @@ img {
         flex-direction: row;
     }
 }
-/****************TABLET****************/
-@media (max-width: 1279px) {
-    main {
-        width: 100%;
-        margin: 0;
-        position: relative;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    /*RASUL*/
-    header {
-        margin-left: 49px;
-        width: auto;
-        margin-right: 49px;
-    }
-    .intro {
-        display: flex;
-        flex-direction: column;
-    }
-    .qolova {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        height: 247px;
-        width: auto;
-    }
-    .shekil {
-        width: 66px;
-        height: 38px;
-        padding-bottom: 50px;
-        padding-top: 20px;
 
-    }
+    
     .pifpaf {
         width: 334px;
         height: 183px;
@@ -1063,7 +1033,7 @@ img {
         align-items: center;
         flex-direction: row;
     }
-}
+
 /****************MOBILE****************/
 @media (max-width: 990px) {
     main {
