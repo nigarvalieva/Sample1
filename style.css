@@ -1427,14 +1427,17 @@ img {
     /*RASUL*/
 
     header {
-        margin-left: 35px;
         width: auto;
+        margin-left: 35px;
         margin-right: 35px;
     }
 
     .intro {
         display: flex;
         flex-direction: column;
+        width: auto;
+        height: 527px;
+        
     }
 
     .qolova {
@@ -1443,7 +1446,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
-        height: 247px;
+        height: 400px;
         width: auto;
 
     }
@@ -1588,8 +1591,8 @@ img {
     }
 
     .dude {
-        width: 178px;
-        height: 219px;
+        width: auto;
+        margin-top: 20px;
     }
 
 
@@ -1645,11 +1648,15 @@ img {
     /* /////////////////////////////////////// */
 
     .about {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         width: auto;
-        height: 619px;
+        height: 740px;
         margin-top: 100px;
         margin-left: 49px;
         margin-right: 49px;
@@ -1702,8 +1709,7 @@ img {
     }
 
     .qaqash {
-        width: 212px;
-        height: 236px;
+        width: auto;
         margin-top: 35px;
     }
 
@@ -1715,8 +1721,18 @@ img {
         height: 143px;
     }
 
+    .zanyatiya {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .zanyatiya div {
+        margin-right: 20px;
+    }
    
     .minizan {
+        height: 221px;
         display: flex;
         flex-direction: row;
         font-family: 'Roboto';
@@ -1724,12 +1740,10 @@ img {
         justify-content: space-between;
         flex-wrap: wrap;
         width: auto;
+        margin: 30px 0 0 0;
     }
 
-    .zanyatiya {
-        display: flex;
-        justify-content: flex-start;
-    }
+   
 
 
     .opti,
@@ -1774,6 +1788,7 @@ img {
         margin-left: 35px;
         align-items: start;
         margin-bottom: 150px;
+        margin-top: 150px;
     }
 
 
@@ -1839,7 +1854,7 @@ img {
     }
 
     .spiski {
-        width: auto;
+        width: 90%;
         height: 195px;
         margin: auto;
 
@@ -1860,7 +1875,7 @@ img {
     /*NIGAR*/
     .programma {
         width: auto;
-        margin-left: 35px;
+        margin-left: 51px;
     }
 
 
