@@ -20,8 +20,6 @@
         display: flex;
         flex-direction: column;
         width: auto;
-        height: 527px;
-
     }
 
     .headsection {
@@ -30,17 +28,12 @@
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
-        height: 400px;
-        width: auto;
-
+        width: 80%;
     }
 
     .picturetop {
         width: 66px;
         height: 38px;
-        padding-bottom: 50px;
-        padding-top: 20px;
-
     }
 
     .underhead {
@@ -154,12 +147,10 @@
 
     .introduction h1 {
         height: 110px;
-        width: 334px;
         font-family: 'Roboto Slab';
         font-weight: 700;
-        font-size: 46px;
-        margin-bottom: 19px;
-        margin-top: 0;
+        font-size: 37px;
+        margin: 0;
     }
 
     .temporary {
@@ -177,7 +168,7 @@
         font-size: 12px;
         width: 334px;
         height: 55px;
-        margin-bottom: 0;
+        margin: 0;
     }
 
     .introductionmiddle {
@@ -213,8 +204,11 @@
 
         font-weight: 400;
         font-size: 12px;
-        text-align: right;
         margin-right: 10px;
+    }
+
+    .text-right{
+        text-align: right;
     }
 
     /* /////////////////////////////////////// */

@@ -91,7 +91,6 @@ img {
         display: flex;
         flex-direction: row;
         max-width: 493px;
-        max-width: 53px;
     }
 
     .panelhead {
@@ -110,6 +109,7 @@ img {
     .panelhead p {
         width: 163px;
         height: 32px;
+        margin: 0;
     }
 
     .panelmiddle {
@@ -157,9 +157,8 @@ img {
     }
 
     .introduction {
-        height: 232px;
+        height: 319px;
         width: 587px;
-        margin-top: 34;
         font-family: 'Roboto Slab';
         font-style: normal;
     }
@@ -167,6 +166,7 @@ img {
     .introduction h1 {
         font-family: 'Roboto Slab';
         font-weight: 700;
+        margin: 0;
         font-size: 80px;
         line-height: 101.38%;
     }
@@ -184,7 +184,7 @@ img {
     .introductionmiddle {
         width: 484px;
         height: 200px;
-        padding: 19px 13px 20px 20px;
+        padding: 20px 13px 30px 25px;
         font-family: 'Roboto Slab';
         font-weight: 400;
         font-size: 25px;
@@ -196,8 +196,22 @@ img {
 
     .viewer p {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .text-right{
         text-align: right;
+    }
+
+    .product {
+        font-family: 'Roboto Slab';
+        font-weight: 400;
+        font-size: 25px;
+        width: 430.59px;
+        height: 113px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
     }
 
     .about {
@@ -611,4 +625,3 @@ img {
         flex-direction: row;
     }
 }
-
