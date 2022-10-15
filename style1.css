@@ -41,543 +41,580 @@ img {
         display: flex;
         flex-direction: column;
     }
-    .qolova {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        height: 247px;
-        width: auto;
-    }
-    .shekil {
-        width: 66px;
-        height: 38px;
-        padding-bottom: 50px;
-        padding-top: 20px;
+   
+.underhead {
+    width: 334px;
+    height: 183px;
+}
 
-    }
-    .pifpaf {
-        width: 334px;
-        height: 183px;
-    }
-    .panel {
+.panel {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 334px;
+    height: 27px;
+}
 
-        font-size: 20px;
-        display: flex;
-        flex-direction: row;
-        width: 334px;
-        height: 27px;
-    }
-    .ppp {
-        display: flex;
-        flex-direction: row;
-        width: 108px;
-        height: 27px;
-        margin-bottom: 12px;
-    }
-    .delimyau {
-        width: 13px;
-        height: 13px;
-        margin: 0 5px 0 0;
-        padding: 0;
-    }
-    .panelwow {
+.panelhead {
+    display: flex;
+    flex-direction: row;
+    width: 108px;
+    height: 27px;
+    margin-bottom: 12px;
+}
 
-        font-weight: 400;
-        font-size: 12px;
-        width: 163px;
-        height: 27px;
-        margin: 0;
-        padding: 0;
-    }
-    .ctotopanel {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-        width: 93px;
-        height: 27px;
-    }
-    .miau18 {
+.phimage {
+    width: 13px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
 
-        font-weight: 400;
-        font-size: 12px;
-        width: 126px;
-        height: 27px;
-        margin: 0;
-        padding: 0;
-    }
-    .panelmiau {
-        width: 13px;
-        height: 13px;
-        margin: 0 5px 0 0;
-        padding: 0;
-    }
-    .lastmiau {
-        display: flex;
-        flex-direction: row;
-        width: 133px;
-        height: 27px;
-        margin: 0;
-        padding: 0;
-    }
-    .panelmeow {
-        width: 13px;
-        height: 13px;
-        margin: 0 5px 0 0;
-        padding: 0;
-    }
-    .daredevil {
+.panelhead p {
 
-        font-weight: 400;
-        font-size: 12px;
-        width: 150px;
-        height: 27px;
-        margin: 0 0 0 0;
-        padding: 0;
-    }
-    .introduction {
-        font-family: 'Roboto Slab';
-        margin: 0;
-        padding: 0;
-    }
-    .how {
-        height: 110px;
-        width: 334px;
-        font-family: 'Roboto Slab';
-        font-weight: 700;
-        font-size: 46px;
-        margin-bottom: 19px;
-        margin-top: 0;
-    }
-    .dude {
-        width: 178px;
-        height: 219px;
-    }
-    .eight {
+    font-weight: 400;
+    font-size: 12px;
+    width: 163px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+}
 
-        font-weight: 400;
-        font-size: 12px;
-        width: 334px;
-        height: 55px;
-        margin-bottom: 0;
-    }
-    .ziritel {
-        width: auto;
-        height: 155px;
-        margin: 0px;
-        align-items: flex-end;
-        justify-content: center;
-        display: flex;
-    }
-    .baxici {
-        background-color: #1E4681;
-        color: white;
-        border-radius: 10px;
-        width: 280px;
-        height: 116px;
-        margin: 39px 177px 0px 168px;
-    }
-    .product {
-        font-family: 'Roboto Slab';
-        font-weight: 400;
-        font-size: 14px;
-        padding: 11px 15px 0px 15px;
-        width: 250px;
-        height: 65px;
-        margin-bottom: 8px;
-        margin-top: 0;
-    }
-    .andruxa {
+.panelmiddle {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 93px;
+    height: 27px;
+}
 
-        font-weight: 400;
-        font-size: 12px;
-        text-align: right;
-        margin-right: 10px;
-    }
-    /* /////////////////////////////////////// */
-    .about {
+.panelmiddle p {
 
-        font-weight: 400;
-        width: auto;
-        height: 471px;
-        margin-top: 100px;
-        margin-left: 49px;
-        margin-right: 49px;
-    }
-    .artiapchi {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        width: auto;
-    }
-    .okurse {
-        width: auto;
-        height: 39px;
-        font-family: 'Roboto Slab';
-        font-weight: 700;
-        font-size: 32px;
-        margin: 0;
-    }
-    .poroy {
-        width: auto;
-        height: 87px;
+    font-weight: 400;
+    font-size: 12px;
+    width: 126px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+}
 
-        font-weight: 400;
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-    .uchimsa {
+.pmimage {
+    width: 13px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
 
-        font-weight: 400;
-        font-size: 14px;
-        width: auto;
-        height: 129px;
-        line-height: 150%;
-        margin-top: 0;
-        margin-bottom: 28px;
-    }
-    .article1 {
-        display: flex;
-        flex-direction: row;
-    }
-    .qaqash {
-        width: 212px;
-        height: 236px;
-        margin-top: 35px;
-    }
-    .time {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: auto;
-        height: 143px;
-    }
-    .zanyatiya {
-        width: auto;
-        height: 143px;
-    }
-    .minizan {
-        display: flex;
-        flex-direction: row;
+.panelfoot {
+    display: flex;
+    flex-direction: row;
+    width: 133px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+}
 
-        justify-content: space-between;
-        width: 363px;
-        height: 58px;
-        margin: 48px 118px 37px 67px;
-    }
-    .ischez {
-        width: 145px;
-        height: 143px;
-    }
-    .opti, .chas, .weeek {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 15px;
-        width: 96px;
-        height: 23px;
-        margin: 0;
-        padding: 0;
-    }
-    .pogrujeni, .dlinniy, .dlitelniy {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 11px;
-        width: 96px;
-        height: 35px;
-        margin: 0;
-        padding: 0;
-    }
-    /*FATIMA*/
-    .info h2 {
-        font-size: 26px;
-    }
-    .info {
-        width: auto;
-        margin-left: 69px;
-        align-items: start;
-        margin-bottom: 119px;
-        margin-top: 82px;
-    }
-    .format {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        width: 80%;
-    }
-    .format h3 {
-        color: #1E4681;
-        font-size: 15px;
-    }
-    .format p {
-        font-size: 11px;
-        line-height: 14px;
+.pfimage {
+    width: 13px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
 
-    }
-    .online {
-        width: 153px;
-        height: 22px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        color: #000000;
-    }
-    .kabi {
-        width: 172px;
-        height: 63px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 23px;
-        color: #000000;
-    }
-    .prepod {
-        width: 141.9px;
-        height: 22.59px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 23px;
-        color: #000000;
-    }
-    .spiski {
-        width: 394x;
-        height: 236px;
-        margin-top: 28px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 21px;
-        color: #000000;
-    }
-    /*NIGAR*/
-    .programma {
-        width: auto;
-        margin-left: 30px;
-    }
-    .lessons {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin-top: 83px;
-    }
-    .programma h2 {
-        max-width: 300px;
-        max-height: 40px;
-        margin: 0 0 83px 30px;
-        font-size: 32px;
-    }
-    .lessons div {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: start;
-        max-width: 233px;
-        max-height: 192px;
-        margin: 0 10.5px 43px 10.5px;
-        border-radius: 17.38px;
-        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    }
-    .lessons h4 {
-        font-size: 17px;
-        margin: 11px 0 19px 11px;
-    }
-    .lessons p {
-        font-size: 14px;
-        font-family: Roboto;
-        margin: 0 0 14px 11px;
-    }
-    h4.vosem {
-        margin: 8px 0 0 11px;
-    }
-    /*TEHRAN*/
-    .section {
-        width: auto;
-        height: 239px;
-    }
-    .article2 {
-        background-color: #EFEFEF;
-        width: 100%;
-        min-height: 451.75px;
-    }
-    .article2 h2 {
-        font-family: Roboto Slab;
-        font-weight: 700;
-        padding-left: 73px;
-        padding-top: 52px;
-    }
-    .card p {
-        font-family: Roboto;
-        font-size: 12px;
-        padding-top: 23px;
-        padding-left: 28px;
-        width: 90%;
-        font-weight: 400;
-        line-height: 18px;
-    }
-    .card {
-        margin-left: 73px;
-        background-color: white;
-        border-radius: 17.375px;
-        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-        width: 40%;
-        height: 261.2px;
-    }
-    .img19 {
-        width: 110.04px;
-        height: 97.88px;
-        margin-left: 15px;
-    }
-    .article2 h4 {
-        margin-left: 30px;
-        font-family: 'Roboto Slab';
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 101.38%;
-    }
-    .continue {
-        display: flex;
-    }
-    .continue h4 {
-        font-family: 'Roboto Slab';
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 101.38%;
-        margin-left: 17px;
-        margin-bottom: 14px;
-    }
-    .img_fb {
-        width: 18.53px;
-        height: 17.95px;
-        margin-left: 17px;
-        margin-top: 0;
-    }
-    .price {
-        margin-bottom: 0;
-        margin-left: 71px;
-    }
-    .price_num {
-        font-weight: 400;
-        font-size: 46px;
-        line-height: 101.38%;
-        margin-top: 0;
-        margin-bottom: 46px;
-    }
-    .price_text {
-        width: 170px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 101.38%;
-        margin-top: 31px;
-        margin-bottom: 0px;
-        padding-bottom: 1px;
-    }
-    .article3 {
-        margin: auto;
-        height: 451.75px;
-        font-weight: 400;
-        line-height: 25px;
-        background-color: #9DC9C8;
-        padding-top: 77px;
-        width: 100%;
-    }
-    .article3 h2 {
-        margin-left: 71px;
-    }
-    .blocks {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        max-width: 540px;
-        margin-left: 71px;
-        margin-top: 0;
-    }
-    .blocks h3 {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 101.38%;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    .blocks p {
-        font-size: 16px;
-        width: 170px;
-        margin-top: 5px;
-    }
-    .left {
-        width: 210px;
-    }
-    .right {
-        width: 294px;
-    }
-    /*FATIMA*/
-    .icons {
-        max-width: 114px;
-        max-height: 76px;
-        align-items: start;
-    }
-    .qav {
-        width: auto;
-        max-height: 230px;
-        margin: auto;
-        padding-bottom: 24px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 70px;
-        margin-right: 100px;
-    }
-    footer {
-        width: auto;
-        background-color: #000000;
-        color: white;
-        padding-top: 28px;
-    }
-    .black {
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 82px;
-    }
-    .sinxr {
-        width: 66.6px;
-        height: 39.38px;
-    }
-    .social {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 30px;
-        width: 114px;
-        height: 20px;
-    }
-    .social img {
-        width: 19px;
-        height: 19px;
-    }
-    .contacts div {
-        max-width: 166px;
-        max-height: 25px;
-    }
-    .contacts img {
-        width: 15px;
-        margin: 5px;
-    }
-    .contacts p {
-        margin: 10
-    }
-    .number,
-    .mail {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-    }
+.panelfoot p {
+
+    font-weight: 400;
+    font-size: 12px;
+    width: 150px;
+    height: 27px;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.introduction {
+    font-family: 'Roboto Slab';
+    margin: 0;
+    padding: 0;
+}
+
+.introduction h1 {
+    height: 110px;
+    width: 334px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 19px;
+    margin-top: 0;
+}
+
+.introductionimage {
+    width: 178px;
+    height: 219px;
+}
+
+.introduction p {
+
+    font-weight: 400;
+    font-size: 12px;
+    width: 334px;
+    height: 55px;
+    margin-bottom: 0;
+}
+
+.introductionmiddle {
+    width: auto;
+    height: 155px;
+    margin: 0px;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+
+.viewer {
+    background-color: #1E4681;
+    color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 116px;
+    margin: 39px 177px 0px 168px;
+}
+
+.product {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 11px 15px 0px 15px;
+    width: 250px;
+    height: 65px;
+    margin: 0 0 0 8px;
+}
+
+.viewer p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* /////////////////////////////////////// */
+.about {
+    font-weight: 400;
+    width: auto;
+    height: 471px;
+    margin: 100px 49px 0 49px;
+}
+
+.mainpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: auto;
+}
+
+.articlemain h2 {
+    width: auto;
+    height: 39px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+}
+
+.mmp {
+    width: auto;
+    height: 87px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.mainmiddle p {
+    font-weight: 400;
+    font-size: 14px;
+    width: auto;
+    height: 129px;
+    line-height: 150%;
+    margin: 0 0 0 28px;
+}
+
+.articlepic {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainimage {
+    width: 212px;
+    height: 236px;
+    margin-top: 35px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: 143px;
+}
+
+.studying {
+    width: auto;
+    height: 143px;
+}
+
+.studyintro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 363px;
+    height: 58px;
+    margin: 48px 118px 37px 67px;
+}
+
+.temporary {
+    width: 145px;
+    height: 143px;
+}
+
+.studyintro h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    width: 96px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.studyintro p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    width: 96px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+/*FATIMA*/
+.info h2 {
+    font-size: 26px;
+}
+
+.info {
+    width: auto;
+    align-items: start;
+    margin: 82px o 119px 69px;
+}
+
+.format {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 80%;
+}
+
+.format h3 {
+    color: #1E4681;
+    font-size: 15px;
+}
+
+.format p {
+    font-size: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text1 {
+    width: 153px;
+    height: 22px;
+}
+
+.text2 {
+    width: 172px;
+    height: 63px;
+}
+
+.text3 {
+    width: 141.9px;
+    height: 22.59px;
+}
+
+.list {
+    width: 394x;
+    height: 236px;
+    margin-top: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*NIGAR*/
+.programma {
+    width: auto;
+    margin-left: 30px;
+}
+
+.lessons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 83px;
+}
+
+.programma h2 {
+    max-width: 300px;
+    max-height: 40px;
+    margin: 0 0 83px 30px;
+    font-size: 32px;
+}
+
+.lessons div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    max-width: 233px;
+    max-height: 192px;
+    margin: 0 10.5px 43px 10.5px;
+    border-radius: 17.38px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+.lessons h4 {
+    font-size: 17px;
+    margin: 11px 0 19px 11px;
+}
+
+.lessons p {
+    font-size: 14px;
+    font-family: Roboto;
+    margin: 0 0 14px 11px;
+}
+
+h4.vosem {
+    margin: 8px 0 0 11px;
+}
+
+/*TEHRAN*/
+.section {
+    width: auto;
+    height: 239px;
+}
+
+.article2 {
+    background-color: #EFEFEF;
+    width: 100%;
+    min-height: 451.75px;
+}
+
+.article2 h2 {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    padding-left: 73px;
+    padding-top: 52px;
+}
+
+.card p {
+    font-family: Roboto;
+    font-size: 12px;
+    padding-top: 23px;
+    padding-left: 28px;
+    width: 90%;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.card {
+    margin-left: 73px;
+    background-color: white;
+    border-radius: 17.375px;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    width: 40%;
+    height: 261.2px;
+}
+
+.img19 {
+    width: 110.04px;
+    height: 97.88px;
+    margin-left: 15px;
+}
+
+.article2 h4 {
+    margin-left: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 101.38%;
+}
+
+.continue {
+    display: flex;
+}
+
+.continue h4 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 101.38%;
+    margin-left: 17px;
+    margin-bottom: 14px;
+}
+
+.img_fb {
+    width: 18.53px;
+    height: 17.95px;
+    margin-left: 17px;
+    margin-top: 0;
+}
+
+.price {
+    margin-bottom: 0;
+    margin-left: 71px;
+}
+
+.price_num {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 101.38%;
+    margin-top: 0;
+    margin-bottom: 46px;
+}
+
+.price_text {
+    width: 170px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    margin-top: 31px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+}
+
+.article3 {
+    margin: auto;
+    height: 451.75px;
+    font-weight: 400;
+    line-height: 25px;
+    background-color: #9DC9C8;
+    padding-top: 77px;
+    width: 100%;
+}
+
+.article3 h2 {
+    margin-left: 71px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 540px;
+    margin-left: 71px;
+    margin-top: 0;
+}
+
+.blocks h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.blocks p {
+    font-size: 16px;
+    width: 170px;
+    margin-top: 5px;
+}
+
+.left {
+    width: 210px;
+}
+
+.right {
+    width: 294px;
+}
+
+/*FATIMA*/
+.icons {
+    max-width: 114px;
+    max-height: 76px;
+    align-items: start;
+}
+
+.ending {
+    width: auto;
+    max-height: 230px;
+    margin: auto;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 100px 0 70px;
+}
+
+footer {
+    width: auto;
+    background-color: #000000;
+    color: white;
+    padding-top: 28px;
+}
+
+.black {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
+
+.synchronization {
+    width: 66.6px;
+    height: 39.38px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 114px;
+    height: 20px;
+}
+
+.social img {
+    width: 19px;
+    height: 19px;
+}
+
+.contacts div {
+    max-width: 166px;
+    max-height: 25px;
+}
+
+.contacts img {
+    width: 15px;
+    margin: 5px;
+}
+
+.contacts p {
+    margin: 10
+}
+
+.number,
+.mail {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 }

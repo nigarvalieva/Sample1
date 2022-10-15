@@ -1,27 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
-
 /****************MOBILE****************/
-
-body {
-    font-family: Roboto, Roboto Slab;
-    width: 100%;
-    margin: 0;
-}
-main {
-    width: 100%;
-    margin: 0;
-    position: relative;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-p, h3, h4 {
-    font-family: Roboto;
-}
-img {
-    width: 100%;
-}
-
 @media (max-width: 990px) {
     main {
         width: 100%;
@@ -31,20 +8,23 @@ img {
         flex-direction: column;
         align-items: center;
     }
+
     /*RASUL*/
     header {
         width: auto;
         margin-left: 35px;
         margin-right: 35px;
     }
+
     .intro {
         display: flex;
         flex-direction: column;
         width: auto;
         height: 527px;
-        
+
     }
-    .qolova {
+
+    .headsection {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -54,17 +34,20 @@ img {
         width: auto;
 
     }
-    .shekil {
+
+    .picturetop {
         width: 66px;
         height: 38px;
         padding-bottom: 50px;
         padding-top: 20px;
 
     }
-    .pifpaf {
+
+    .underhead {
         width: 334px;
         height: 183px;
     }
+
     .panel {
 
         font-size: 20px;
@@ -73,20 +56,23 @@ img {
         width: 334px;
         height: 27px;
     }
-    .ppp {
+
+    .panelhead {
         display: flex;
         flex-direction: row;
         width: 108px;
         height: 27px;
         margin-bottom: 12px;
     }
-    .delimyau {
+
+    .phimage {
         width: 13px;
         height: 13px;
         margin: 0 5px 0 0;
         padding: 0;
     }
-    .panelwow {
+
+    .panelhead p {
 
         font-weight: 400;
         font-size: 12px;
@@ -95,7 +81,8 @@ img {
         margin: 0;
         padding: 0;
     }
-    .ctotopanel {
+
+    .panelmiddle {
         display: flex;
         flex-direction: row;
         margin: 0;
@@ -103,8 +90,8 @@ img {
         width: 93px;
         height: 27px;
     }
-    .miau18 {
 
+    .panelmiddle p {
         font-weight: 400;
         font-size: 12px;
         width: 126px;
@@ -112,13 +99,15 @@ img {
         margin: 0;
         padding: 0;
     }
-    .panelmiau {
+
+    .pmimage {
         width: 13px;
         height: 13px;
         margin: 0 5px 0 0;
         padding: 0;
     }
-    .lastmiau {
+
+    .panelfoot {
         display: flex;
         flex-direction: row;
         width: 133px;
@@ -126,13 +115,15 @@ img {
         margin: 0;
         padding: 0;
     }
-    .panelmeow {
+
+    .pfimage {
         width: 13px;
         height: 13px;
         margin: 0 5px 0 0;
         padding: 0;
     }
-    .daredevil {
+
+    .panelfoot p {
 
         font-weight: 400;
         font-size: 12px;
@@ -141,13 +132,16 @@ img {
         margin: 0 0 0 0;
         padding: 0;
     }
-    .artic {
+
+    .articlemain {
         width: auto;
     }
-    .dora{
+
+    .mainmiddle {
         display: flex;
         flex-wrap: wrap;
     }
+
     .introduction {
         font-family: 'Roboto Slab';
         display: flex;
@@ -157,7 +151,8 @@ img {
         margin: 0;
         padding: 0;
     }
-    .how {
+
+    .introduction h1 {
         height: 110px;
         width: 334px;
         font-family: 'Roboto Slab';
@@ -166,14 +161,17 @@ img {
         margin-bottom: 19px;
         margin-top: 0;
     }
-    .ischez{
+
+    .temporary {
         display: none;
     }
-    .dude {
+
+    .introductionimage {
         width: auto;
         margin-top: 20px;
     }
-    .eight {
+
+    .introduction p {
 
         font-weight: 400;
         font-size: 12px;
@@ -181,7 +179,8 @@ img {
         height: 55px;
         margin-bottom: 0;
     }
-    .ziritel {
+
+    .introductionmiddle {
         width: auto;
         height: 155px;
         margin: 0px;
@@ -189,7 +188,8 @@ img {
         justify-content: center;
         display: flex;
     }
-    .baxici {
+
+    .viewer {
         background-color: #1E4681;
         color: white;
         border-radius: 10px;
@@ -197,6 +197,7 @@ img {
         height: 116px;
         margin: 39px 177px 0px 168px;
     }
+
     .product {
         font-family: 'Roboto Slab';
         font-weight: 400;
@@ -207,13 +208,15 @@ img {
         margin-bottom: 8px;
         margin-top: 0;
     }
-    .andruxa {
+
+    .viewer p {
 
         font-weight: 400;
         font-size: 12px;
         text-align: right;
         margin-right: 10px;
     }
+
     /* /////////////////////////////////////// */
     .about {
         display: flex;
@@ -228,7 +231,8 @@ img {
         margin-left: 49px;
         margin-right: 49px;
     }
-    .artiapchi {
+
+    .mainpart {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -236,7 +240,8 @@ img {
         width: auto;
         flex-wrap: wrap;
     }
-    .okurse {
+
+    .articlemain h2 {
         width: auto;
         height: 39px;
         font-family: 'Roboto Slab';
@@ -244,7 +249,8 @@ img {
         font-size: 32px;
         margin: 0;
     }
-    .poroy {
+
+    .mmp {
         width: auto;
         height: 87px;
 
@@ -252,7 +258,8 @@ img {
         font-size: 14px;
         margin-bottom: 0;
     }
-    .uchimsa {
+
+    .mainmiddle p {
 
         font-weight: 400;
         font-size: 14px;
@@ -262,14 +269,17 @@ img {
         margin-top: 20px;
         margin-bottom: 28px;
     }
-    .article1 {
+
+    .articlepic {
         display: flex;
         flex-direction: row;
     }
-    .qaqash {
+
+    .mainimage {
         width: auto;
         margin-top: 35px;
     }
+
     .time {
         display: flex;
         flex-direction: row;
@@ -277,14 +287,14 @@ img {
         width: auto;
         height: 143px;
     }
-    .zanyatiya {
+
+    .studying {
         display: flex;
         justify-content: space-between;
-    }
-    .zanyatiya div {
         margin-right: 20px;
     }
-    .minizan {
+
+    .studyintro {
         height: 221px;
         display: flex;
         flex-direction: row;
@@ -294,7 +304,10 @@ img {
         width: auto;
         margin: 30px 0 0 0;
     }
-    .opti, .chas, .weeek {
+
+    .opti,
+    .chas,
+    .weeek {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -304,7 +317,10 @@ img {
         margin: 0;
         padding: 0;
     }
-    .pogrujeni, .dlinniy, .dlitelniy {
+
+    .pogrujeni,
+    .dlinniy,
+    .dlitelniy {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -314,89 +330,82 @@ img {
         margin: 0;
         padding: 0;
     }
+
     /*FATIMA*/
     .info h2 {
         width: auto;
         font-size: 26px;
         padding-bottom: 28px;
-
     }
+
     .info {
         width: auto;
-        margin-left: 35px;
         align-items: start;
-        margin-bottom: 150px;
-        margin-top: 150px;
+        margin: 150px 0 150px 35px;
     }
+
     .format {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: auto;
     }
+
     .format h3 {
         color: #1E4681;
         font-size: 12px;
         margin: 0;
-
     }
+
     .format p {
         font-size: 11px;
         line-height: 13px;
         margin: 0;
-
+        font-weight: 400;
+        line-height: 13px;
+        color: #000000;
     }
+
     .format div {
         padding-bottom: 27px;
         width: auto;
     }
-    .online {
+
+    .text1 {
         width: 180px;
         height: 32px;
-
-
-        font-weight: 400;
-        line-height: 13px;
-        color: #000000;
     }
-    .kabi {
+
+    .text2 {
         width: 180px;
         height: 41px;
-
-
-        font-weight: 400;
-        line-height: 13px;
-        color: #000000;
     }
-    .prepod {
+
+    .text3 {
         width: 180px;
         height: 33px;
-
-
-        font-weight: 400;
-        line-height: 13px;
-        color: #000000;
     }
+
     .spiski {
         width: 90%;
         height: 195px;
         margin: auto;
-
-
         font-weight: 400;
         font-size: 12px;
         line-height: 21px;
         color: #000000;
-
     }
+
     ul {
         padding-left: 20px;
     }
+
     /*NIGAR*/
     .programma {
         width: auto;
         margin-left: 51px;
     }
+
     .lessons {
         display: flex;
         flex-wrap: wrap;
@@ -404,12 +413,14 @@ img {
         justify-content: flex-start;
         margin-top: 48px;
     }
+
     .programma h2 {
         max-width: 240px;
         max-height: 32px;
         margin: 0;
         font-size: 26px;
     }
+
     .lessons div {
         display: flex;
         flex-wrap: wrap;
@@ -421,24 +432,29 @@ img {
         border-radius: 17.38px;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
+
     .lessons h4 {
         font-size: 17px;
         margin: 6px 0 15px 9px;
     }
+
     .lessons p {
         font-size: 14px;
         font-family: Roboto;
         margin: 0 0 11px 9px;
     }
+
     h4.vosem {
         margin: 8px 0 0 9px;
     }
+
     /*TEHRAN*/
     .section {
         width: auto;
         min-height: 237px;
         margin-left: 35px;
     }
+
     .article2 {
         display: flex;
         flex-direction: column;
@@ -447,6 +463,7 @@ img {
         width: auto;
         min-height: 423px;
     }
+
     .card {
         justify-self: center;
         width: 69%;
@@ -462,6 +479,7 @@ img {
         flex-direction: column;
         margin-bottom: 30px;
     }
+
     .article2 h2 {
         font-family: 'Roboto Slab';
         font-weight: 700;
@@ -471,8 +489,8 @@ img {
         padding-top: 42px;
         width: auto;
     }
-    .card p {
 
+    .card p {
         font-weight: 400;
         font-size: 12px;
         padding-top: 19px;
@@ -481,20 +499,24 @@ img {
         width: 90%;
         height: auto;
     }
+
     .img19 {
         width: 80px;
         height: 70px;
         margin-left: 21px;
     }
+
     .img_fb {
         width: 14.91px;
         height: 17.2px;
         margin-left: 14px;
     }
+
     .continue {
         display: flex;
         margin-bottom: 10px;
     }
+
     .article2 h4 {
         font-family: 'Roboto Slab';
         font-weight: 700;
@@ -503,6 +525,7 @@ img {
         margin-left: 14px;
         margin-bottom: 18px;
     }
+
     .article3 {
         margin: auto;
         font-family: Roboto Slab;
@@ -513,6 +536,7 @@ img {
         font-size: 35px;
         font-weight: 700;
     }
+
     .article3 h2 {
         margin-bottom: 0;
         font-family: 'Roboto Slab';
@@ -524,9 +548,11 @@ img {
         margin-top: 0;
         margin-left: 0;
     }
+
     .price {
         margin-left: 0px;
     }
+
     .price_text {
         width: 170px;
         padding-top: 22px;
@@ -539,19 +565,22 @@ img {
         padding-left: 0;
         padding-bottom: 0;
     }
+
     .price_num {
-         font-weight: 400;
+        font-weight: 400;
         font-size: 37px;
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 0;
     }
+
     .blocks {
         margin-top: 0;
         display: flex;
         margin-left: 0px;
         justify-content: space-between;
     }
+
     .blocks p {
 
         font-weight: 400;
@@ -560,6 +589,7 @@ img {
         width: 138px;
         margin-top: 0;
     }
+
     .blocks h3 {
 
         font-weight: 400;
@@ -567,6 +597,7 @@ img {
         margin-top: 35px;
         width: 137px;
     }
+
     /*FATIMA*/
     .icons {
         max-width: 98px;
@@ -574,7 +605,8 @@ img {
         margin: 0 150px 10px 0;
         align-items: start;
     }
-    .qav { 
+
+    .ending {
         width: auto;
         max-height: 252px;
         margin: auto;
@@ -582,15 +614,16 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 35px;
-        margin-right: 34px;
+        margin: 0 34px 0 35px;
     }
+
     footer {
         width: auto;
         background-color: #000000;
         color: white;
         padding-top: 21px;
     }
+
     .black {
         width: auto;
         display: flex;
@@ -599,10 +632,12 @@ img {
         justify-content: space-between;
         margin-bottom: 82px;
     }
-    .sinxr {
+
+    .synchronization {
         width: 53.59px;
         height: 31.69px;
     }
+
     .social {
         display: flex;
         flex-direction: row;
@@ -611,27 +646,32 @@ img {
         width: 98px;
         height: 23px;
     }
+
     .social img {
         width: 15px;
         height: 15px;
     }
+
     .contacts div {
         max-width: 150px;
         max-height: 20px;
         margin-left: -10px;
-
     }
+
     .contacts img {
         width: 12px;
         margin: 10px;
     }
-    .contacts p, .qav p {
+
+    .contacts p,
+    .qav p {
         margin: 2px;
         font-size: 12px;
-
         font-weight: 400;
     }
-    .number, .mail {
+
+    .number,
+    .mail {
         display: flex;
         align-items: center;
         flex-direction: row;
