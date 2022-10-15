@@ -17,7 +17,9 @@ main {
     align-items: center;
 }
 
-p, h3, h4 {
+p,
+h3,
+h4 {
     font-family: Roboto;
 }
 
@@ -47,9 +49,9 @@ img {
         flex-direction: column;
     }
 
-    .picturetop{
+    .picturetop {
         width: 64.87px;
-        margin: 22px 0 50px ;
+        margin: 22px 0 50px;
     }
 
     .headsection {
@@ -214,8 +216,8 @@ img {
         font-size: 12px;
         margin-right: 10px;
     }
-    
-    .text-right{
+
+    .text-right {
         text-align: right;
     }
 
@@ -232,12 +234,13 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
-        width: auto;
+        align-items: center;
+        width: 90%;
     }
 
     .articlemain h2 {
         width: auto;
+        margin: 0;
         height: 39px;
         font-family: 'Roboto Slab';
         font-weight: 700;
@@ -250,14 +253,19 @@ img {
         font-size: 14px;
     }
 
+    .mmp p {
+        height: fit-content;
+    }
+
     .mainmiddle p {
         font-weight: 400;
         font-size: 14px;
-        width: 85%;
+        height: fit-content;
         line-height: 150%;
     }
 
     .articlepic {
+        margin: 0;
         display: flex;
         flex-direction: row;
     }
@@ -265,19 +273,20 @@ img {
     .mainimage {
         width: 212px;
         height: 236px;
-        margin-top: 35px;
     }
 
     .time {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         width: auto;
         height: 143px;
     }
 
     .studying {
-        width: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 85%;
         height: 143px;
     }
 
@@ -285,12 +294,13 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 363px;
-        height: 58px;
-        margin: 48px 118px 37px 67px;
+        flex-wrap: wrap;
+        width: inherit;
+        align-items: center;
     }
 
     .temporary {
+        margin-right: 65px;
         width: 145px;
         height: 143px;
     }
@@ -333,7 +343,7 @@ img {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
-        width: 80%;
+        width: 75%;
     }
 
     .format h3 {

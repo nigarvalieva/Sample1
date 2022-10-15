@@ -223,14 +223,16 @@ img {
     }
 
     .mainpart {
+        height: 600px;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
-        align-items: flex-start;
     }
 
     .articlemain h2 {
         width: auto;
+        margin-top: 0;
         height: 61px;
         font-family: 'Roboto Slab';
         font-weight: 700;
@@ -255,6 +257,7 @@ img {
     }
 
     .articlepic {
+        margin: 120px 0 0 0;
         display: flex;
         flex-direction: row;
     }
@@ -268,22 +271,34 @@ img {
         display: flex;
         flex-direction: row;
         width: auto;
-        height: 219px;
         margin-left: 16px;
     }
 
     .studying {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
         margin-left: 121px;
-        width: 649px;
-        height: 219px;
     }
 
     .studyintro {
+        width: 800px;
+        height: auto;
         display: flex;
         flex-direction: row;
-
+        flex-wrap: wrap;
         justify-content: space-between;
         margin: 70px 0 53px 0;
+    }
+
+    .studyintro p, .studyintro h3{
+        margin: 1px;
+    }
+
+    .studyintro div {
+        width: 150px;
+        height: 40px;
     }
 
     .temporary {
