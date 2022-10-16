@@ -473,7 +473,6 @@
     /*TEHRAN*/
     .section {
         width: auto;
-        height: 60vh;
         margin-left: 35px;
     }
 
@@ -555,6 +554,8 @@
         font-family: Roboto Slab;
         background-color: #9DC9C8;
         width: 100%;
+        display: flex;
+        align-items: center;
         font-size: 35px;
         font-weight: 700;
     }
@@ -591,9 +592,7 @@
     .price_num {
         font-weight: 400;
         font-size: 37px;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
+        margin: 0 0 15px 0;
     }
 
     .blocks {
@@ -608,7 +607,7 @@
         font-weight: 400;
         font-size: 13px;
         margin-bottom: 5px;
-        margin: 0 25px 0 0;
+        margin: 0 20px 0 0;
         width: 150px;
         margin-top: 3px;
     }
@@ -616,7 +615,6 @@
     .blocks h3 {
         font-weight: 400;
         font-size: 15px;
-        margin-top: 35px;
         width: 140px;
     }
 

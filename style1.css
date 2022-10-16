@@ -541,16 +541,17 @@ img {
 
     .article3 {
         margin: auto;
+        display: flex;
+        align-items: center;
         height: 451.75px;
         font-weight: 400;
         line-height: 25px;
         background-color: #9DC9C8;
-        padding-top: 77px;
         width: 100%;
     }
 
     .article3 h2 {
-        margin-left: 71px;
+        margin: 0 0 0 71px;
     }
 
     .blocks {
