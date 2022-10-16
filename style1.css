@@ -60,7 +60,7 @@ img {
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 85%;
+        width: 80%;
     }
 
     .underhead {
@@ -177,7 +177,7 @@ img {
     .introduction p {
 
         font-weight: 400;
-        font-size: 12px;
+        font-size: 13px;
         width: 334px;
         height: 55px;
         margin-bottom: 0;
@@ -260,12 +260,14 @@ img {
     .mainmiddle p {
         font-weight: 400;
         font-size: 14px;
+        max-width: 60vw;
         height: fit-content;
         line-height: 150%;
     }
 
     .articlepic {
         margin: 0;
+        width: 80%;
         display: flex;
         flex-direction: row;
     }
@@ -335,7 +337,7 @@ img {
     .info {
         width: auto;
         align-items: start;
-        margin: 82px o 119px 69px;
+        margin: 0 0 0 49px;
     }
 
     .format {
@@ -352,29 +354,29 @@ img {
     }
 
     .format p {
-        font-size: 11px;
+        font-size: 13px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
     }
 
     .text1 {
-        width: 153px;
+        width: 160px;
         height: 22px;
     }
 
     .text2 {
-        width: 172px;
+        width: 175px;
         height: 63px;
     }
 
     .text3 {
-        width: 141.9px;
+        width: 145px;
         height: 22.59px;
     }
 
     .list {
-        width: 394x;
+        width: 394px;
         height: 236px;
         margin-top: 28px;
         font-family: 'Roboto';
@@ -541,6 +543,7 @@ img {
     }
 
     .blocks {
+        line-height: 14px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
