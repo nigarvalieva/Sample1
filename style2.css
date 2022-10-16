@@ -600,16 +600,16 @@
         line-height: 14px;
         margin-top: 0;
         display: flex;
+        flex-wrap: nowrap;
         margin-left: 0px;
-        justify-content: space-between;
     }
 
     .blocks p {
-
         font-weight: 400;
         font-size: 13px;
         margin-bottom: 5px;
-        width: 138px;
+        margin: 0 25px 0 0;
+        width: 150px;
         margin-top: 3px;
     }
 

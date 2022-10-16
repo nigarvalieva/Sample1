@@ -557,9 +557,7 @@ img {
         line-height: 14px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         flex-wrap: wrap;
-        max-width: 540px;
         margin-left: 71px;
         margin-top: 0;
     }
@@ -573,17 +571,10 @@ img {
     }
 
     .blocks p {
+        width: 250px;
         font-size: 16px;
-        width: 170px;
         margin-top: 5px;
-    }
-
-    .left {
-        width: 210px;
-    }
-
-    .right {
-        width: 294px;
+        margin: 5px 30px 0 0;
     }
 
     /*FATIMA*/
