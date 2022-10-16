@@ -157,6 +157,13 @@
         display: none;
     }
 
+    .introductionpic {
+        float: right;
+        /* display: contents; */
+        right: -103px;
+        position: relative;
+    }
+
     .introductionimage {
         margin: auto;
         margin-top: 20px;
@@ -276,10 +283,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 86vw;
-        height: 40vh;
+        height: 35vh;
+        padding-top: 20px;
     }
 
     .studying {
+        height: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -424,7 +433,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-start;
-        margin-top: 48px;
+        margin: 48px 0 0 0;
     }
 
     .programma h2 {
