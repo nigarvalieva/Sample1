@@ -243,7 +243,6 @@
     }
 
     .mmp {
-        width: 100vw;
         height: 87px;
 
         font-weight: 400;
@@ -412,6 +411,11 @@
     .programma {
         width: auto;
         margin-left: 51px;
+    }
+
+    .section-lesson {
+        display: flex;
+        justify-content: center;
     }
 
     .lessons {

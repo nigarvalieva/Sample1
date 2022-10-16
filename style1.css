@@ -235,7 +235,6 @@ img {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 90%;
     }
 
     .articlemain h2 {
@@ -248,7 +247,6 @@ img {
     }
 
     .mmp {
-        width: auto;
         font-weight: 400;
         font-size: 14px;
     }
@@ -258,9 +256,9 @@ img {
     }
 
     .mainmiddle p {
+        width: auto;
         font-weight: 400;
         font-size: 14px;
-        max-width: 60vw;
         height: fit-content;
         line-height: 150%;
     }
@@ -273,16 +271,15 @@ img {
     }
 
     .mainimage {
-        width: 212px;
-        height: 236px;
+        margin: auto;
+        width: 181.86px;
+        height: 182.44px;
     }
 
     .time {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        width: auto;
-        height: 143px;
     }
 
     .studying {
@@ -299,6 +296,12 @@ img {
         flex-wrap: wrap;
         width: inherit;
         align-items: center;
+    }
+
+    .studyintro div {
+        margin: 0 25px 10px 0;
+        width: 89px;
+        height: 58px;
     }
 
     .temporary {
@@ -392,17 +395,24 @@ img {
         margin-left: 30px;
     }
 
+    .section-lesson {
+        display: flex;
+        justify-content: center;
+    }
+
     .lessons {
+        width: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        margin: 80px 0 0 35px;
         margin-top: 83px;
     }
 
     .programma h2 {
+        margin: 0;
         max-width: 300px;
         max-height: 40px;
-        margin: 0 0 83px 30px;
         font-size: 32px;
     }
 

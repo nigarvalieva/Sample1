@@ -199,7 +199,7 @@ img {
         font-size: 25px;
     }
 
-    .text-right{
+    .text-right {
         text-align: right;
     }
 
@@ -240,7 +240,6 @@ img {
     }
 
     .mmp {
-        width: auto;
         height: 149px;
         font-weight: 400;
         font-size: 24px;
@@ -248,7 +247,6 @@ img {
     }
 
     .mainmiddle p {
-
         font-weight: 400;
         font-size: 24px;
         width: 700px;
@@ -263,6 +261,7 @@ img {
     }
 
     .mainimage {
+        margin-top: 84px;
         width: 366px;
         height: 344px;
     }
@@ -292,7 +291,8 @@ img {
         margin: 70px 0 53px 0;
     }
 
-    .studyintro p, .studyintro h3{
+    .studyintro p,
+    .studyintro h3 {
         margin: 1px;
     }
 
@@ -378,7 +378,7 @@ img {
         height: 39px;
     }
 
-    .spiski {
+    .list {
         width: 662px;
         height: 374px;
         margin-top: 21px;
@@ -388,13 +388,17 @@ img {
         font-size: 24px;
         line-height: 36px;
         color: #000000;
-
     }
 
     /* Nigar*/
     .programma {
         max-width: 1308px;
         margin-left: 40px;
+    }
+
+    .section-lesson {
+        display: flex;
+        justify-content: center;
     }
 
     .lessons {
@@ -407,7 +411,7 @@ img {
     .programma h2 {
         max-width: 505px;
         max-height: 64px;
-        margin: 0 0 0 55px;
+        margin: 0;
     }
 
     .lessons div {
