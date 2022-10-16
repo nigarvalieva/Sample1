@@ -158,7 +158,7 @@
     }
 
     .introductionimage {
-        width: auto;
+        margin: auto;
         margin-top: 20px;
     }
 
@@ -217,7 +217,7 @@
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
-        margin: 100px 0 25px 35px;
+        margin: 40px 0 25px 35px;
         font-weight: 400;
         width: auto;
         height: 100%;
@@ -244,14 +244,14 @@
 
     .mmp {
         height: 87px;
-
+        min-width: 308.47px;
         font-weight: 400;
         font-size: 14px;
         margin-bottom: 0;
     }
 
     .mainmiddle p {
-        width: 70vw;
+        width: 80vw;
         font-weight: 400;
         font-size: 14px;
         height: fit-content;
@@ -276,7 +276,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 86vw;
-        height: 50vh;
+        height: 40vh;
     }
 
     .studying {
@@ -349,7 +349,7 @@
         width: auto;
         height: fit-content;
         align-items: start;
-        margin: 0 0 150px 35px;
+        margin: 0 0 70px 35px;
     }
 
     .format {
@@ -414,6 +414,7 @@
     }
 
     .section-lesson {
+        margin: auto;
         display: flex;
         justify-content: center;
     }
@@ -479,6 +480,8 @@
     .card {
         justify-self: center;
         width: 69%;
+        min-width: 250px;
+        max-width: 400px;
         height: auto;
         margin-left: 36px;
         background-color: white;

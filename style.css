@@ -215,11 +215,10 @@ img {
     }
 
     .about {
-
         font-weight: 400;
         width: auto;
         height: 794px;
-        margin: 177px 105px 0 105px;
+        margin: 45px 105px 0 105px;
     }
 
     .mainpart {
@@ -397,6 +396,7 @@ img {
     }
 
     .section-lesson {
+        margin: auto;
         display: flex;
         justify-content: center;
     }
@@ -405,13 +405,13 @@ img {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-top: 134px;
+        margin: auto;
     }
 
     .programma h2 {
         max-width: 505px;
         max-height: 64px;
-        margin: 0;
+        margin: 0 0 134px 0;
     }
 
     .lessons div {
